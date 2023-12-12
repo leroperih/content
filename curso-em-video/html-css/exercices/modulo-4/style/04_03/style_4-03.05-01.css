@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+i#burger {
+
+  display: block;
+  text-align: center;
+}
+i#burger > p {
+  display: inline-block;
+  line-height: 0.35em;
+} i#burger > p > * {
+  transform: translate( 00% , 50% );
+}
+menu#menbur {
+  display: none;
+}
+
+menu {
+
+  display: block;
+} menu > ul {
+
+  list-style-type: none;
+} menu > ul > li > a {
+
+  display: block;
+  padding: 0.2em;
+  text-decoration: none;
+  background-color: #5f5f5f;
+  color: #f5f5f5;
+  text-align: center;
+  border-bottom: 2.5px solid #050505;
+} a:hover {
+
+  background-color: #00000049;
+  color: #050505;
+}
+
+
+
+section#exercicio_exhc > article {
+
+  background-color: #e5e5e5ae;
+  width: 85vw;
+  margin: auto;
+  padding: 0.75em;
+  border-radius: 0.75em;
+  margin-top: 1em;
+}
+
+article > h2 {
+
+  margin-bottom: 1em;
+}
+article > p {
+
+  text-align: justify;
+  margin-bottom: 1em;
+  text-indent: 1em;
+}

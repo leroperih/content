@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  <link rel="stylesheet" href="style/style-exhc_all.css">
+</head>
+<body>
+
+  <main>
+  <section id="titulo_exhc">
+    <a href="../../estudos_html-css.html"><img src="conteudo/return.png" alt="voltar"></a>
+    <h1>Exemplo de Formulário</h1>
+  </section>
+  <section id="exercicio_exhc">
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <p>
+        <label for="i#nome">Nome:</label>
+        <input type="text" name="nome" id="i#nome" autocomplete="name" placeholder="Nome" minlength="5" maxlength="24">
+      </p>
+      <p>
+        <label for="i#email">E-mail:</label>
+        <input type="email" name="email" id="i#email" autocomplete="email" placeholder="nome de email @email">
+      </p>
+      <p>
+        <label for="i#tell">Telefone Celular:</label>
+        <input type="tel" name="tell" id="i#tell" autocomplete="tel" requiredpattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00) 0000-0000">
+      </p>
+      <!-- Estudar mais sobre RegEx-->
+    </fieldset>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+    </form>
+  </section>
+  </main>
+    
+</body>
+</html>

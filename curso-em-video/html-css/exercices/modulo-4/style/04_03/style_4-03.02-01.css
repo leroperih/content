@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* CSS para Telas na Vertical */
+
+body {
+
+  background: #233eff url("../../conteudo/exhc-04_03/cev-portrait.jpg") left bottom no-repeat;
+  background-size: contain;
+}

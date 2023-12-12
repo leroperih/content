@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  <link rel="stylesheet" href="style/style-exhc_all.css">
+</head>
+<body>
+
+  <main>
+  <section id="titulo_exhc">
+    <a href="../../estudos_html-css.html"><img src="conteudo/return.png" alt="voltar"></a>
+    <h1>Exemplo de Formulário</h1>
+  </section>
+  <section id="exercicio_exhc">
+
+  <form action="cadastro.php" method="get">
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" id="i#ofe" value="FE"> <label for="i#ofe">Feminíno</label>
+      <input type="radio" name="sexo" id="i#oma" value="MA"> <label for="i#oma">Masculino</label>
+      <input type="radio" name="sexo" id="i#onb" checked value="NB"> <label for="i#onb">N-Binário</label>
+    </fieldset>
+    <fieldset>
+    <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="fut" id="es#fut">    <label for="es#fut">Futebol</label>
+        <input type="checkbox" name="nat" id="es#nat">    <label for="es#nat">Natação</label>
+        <input type="checkbox" name="cor" id="es#cor" checked>    <label for="es#cor">Corrida</label>
+        <input type="checkbox" name="que" id="es#que">    <label for="es#que">Queimada</label>
+        <input type="checkbox" name="bas" id="es#bas">    <label for="es#bas">Basquete</label>
+    </fieldset>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+  </section>
+  </main>
+    
+</body>
+</html>

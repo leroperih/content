@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* css para impressoras */
+
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5em;
+}
+menu {
+  display: none;
+}
+article::after {
+  content: 'Esse artigo foi impresso através do site: *********.com.br';
+}

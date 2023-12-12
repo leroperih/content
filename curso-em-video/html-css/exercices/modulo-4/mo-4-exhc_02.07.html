@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  <link rel="stylesheet" href="style/style-exhc_all.css">
+</head>
+<body>
+
+  <main>
+  <section id="titulo_exhc">
+    <a href="../../estudos_html-css.html"><img src="conteudo/return.png" alt="voltar"></a>
+    <h1>Exemplo de Formulário</h1>
+  </section>
+  <section id="exercicio_exhc">
+    
+  <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+      <label for="i#est">Estado:</label>
+      <select name="est" id="i#est">
+        <optgroup label="Sudeste">
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ" selected>Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+
+        <optgroup label="Nordeste">
+          <option value="MA">Maranhão</option>
+          <option value="PE">Pernambuco</option>
+          <option value="RN">Rio Grande do Norte</option>
+        </optgroup>
+      </select>
+    </p>
+    <p>
+      <label for="i#pro">Profissão:</label>
+      <input type="text" name="pro" id="i#pro" list="prolst">
+      <datalist id="prolst">
+        <option>Desevolvedor</option>
+        <option>Físico</option>
+        <option>Motorista</option>
+        <option>Cozinheiro</option>
+        <option>Ilustrador</option>
+        <option>Gamer Desing</option>
+        <option>Farmacêutico</option>
+        <option>Doutor</option>
+        <option>Engenheiro</option>
+        <option>Terapeuta</option>
+        <option>Professor</option>
+      </datalist>
+    </p>
+    <p>
+      <label for="i#msg">Mensagem:</label> </br>
+      <textarea name="msg" id="i#msg" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+  </section>
+  </main>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  <link rel="stylesheet" href="style/style-exhc_all.css">
+</head>
+<body>
+
+  <main>
+  <section id="titulo_exhc">
+    <a href="../../estudos_html-css.html"><img src="conteudo/return.png" alt="voltar"></a>
+    <h1>Exemplo de formulário</h1>
+  </section>
+  <section id="exercicio_exhc">
+
+  <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+      <label for="inas">Em qual ano você nasceu?</label>
+      <input type="number" name="nas" id="inas" min="1920" max="2023" value="2000" oninput="calc_idade()">
+    </p>
+    <p>
+      <label for="iida">Você fará, ou já fez,</label>
+      <output name="ida" id="iida">__</output>
+      <label for="iida">anos de idade esse ano.</label>
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+  </section>
+  </main>
+    
+
+
+  <script>
+  function calc_idade() {
+    anatu = new Date().getFullYear()
+    iida.innerHTML = Number(anatu) - Number(inas.value)
+  }
+  </script>
+
+</body>
+</html>

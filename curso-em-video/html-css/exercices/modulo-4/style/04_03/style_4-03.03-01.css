@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+
+@media screen and (orientation: portrait) {
+
+body {
+
+  background: #233eff url("../../conteudo/exhc-04_03/cev-portrait.jpg") left bottom no-repeat;
+  background-size: contain;
+}
+}
+
+
+@media screen and (orientation: landscape) {
+
+body {
+
+  background: #233eff url("../../conteudo/exhc-04_03/cev-landscape.jpg") center bottom no-repeat;
+  background-size: contain;
+}
+}

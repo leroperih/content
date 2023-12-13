@@ -95,7 +95,7 @@
 
 
 div#title {  /* Title and Back Button */
-  margin-top: 5em;
+  margin-top: 2.5em;
 } div.icon,
   div.icon * {
   box-sizing: border-box;
@@ -131,6 +131,7 @@ main { /* Main -----------------------------------------------------------------
   max-width: 70em;
   margin: 1.5em auto;
 } main > div:nth-of-type(2) {
+  border-radius: 0.75em;
   padding: 1em;
   background-color: var(--color-lighter-white-01);
 } main > div:nth-of-type(2) * {
@@ -144,4 +145,14 @@ main { /* Main -----------------------------------------------------------------
 footer {  /* Footer -------------------------------------------------------------------------------------------------------------------- */
   min-height: 8em;
   background-color: var(--color-medium-black-02);
+}
+
+
+
+.cont-img-size {
+  border-radius: 0.5em;
+  border: 0.1em solid var(--color-lighter-white-02);
+  box-shadow: 0em 0em 0.75em var(--color-dark-grey-02);
+  width: 100%;
+  max-width: 32em;
 }

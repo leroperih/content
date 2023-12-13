@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p {
+  text-indent: 1.25em;
+} #arte {
+  font-size: 1vw;
+  background-color: var(--color-darkest-black-01);
+  text-align: center;
+} code {
+  font-size: 3vw;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Vídeos com HTML5</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+  <style>
+  video#mar {
+    display: block;
+    width: 100%;
+    max-width: 48em;
+    border-radius: 1vw;
+  } div.video {
+    max-width: 48em;
+    position: relative;
+    max-height: 27em;
+    height: 42.2vw;
+  } iframe.you {
+    top: -3%;
+    position: absolute;
+    border-radius: 1vw;
+    height: 100%;
+    width: 100%;
+ }
+  </style>
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Vídeos em HTML5</h1>
+  
+      </div>
+
+      <div>
+          <h2>Inserindo vídeos hospedados localmente</h2>
+          <p>Este vídeo está hospedado no meu próprio servidor.</p>
+          <video id="mar" loop poster="conteudo/mar.jpg" controls autoplay preload="metadata">
+            <source src="conteudo/mar.mp4" type="video/mp4">
+            <p>O seu navegador não é compatível com nenhum de nossos tipos de mídia.</p>
+          </video>
+    
+    
+    
+          <h2>Inserindo vídeos do YouTube</h2>
+          <p>Este vídeo está hospedado no servidor do YouTube.</p>
+          <div class="video">
+            <iframe class="you" width="560" height="315" src="https://www.youtube.com/embed/u9NE0jInb_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+
+  </footer>
+
+
+
+</body>
+</html>

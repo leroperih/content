@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-  <link rel="stylesheet" href="style/style-exhc_all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
 </head>
-<body>
+<body class="scroll">
+
+
 
   <main>
-  <section id="titulo_exhc">
-    <a href="../../estudos_html-css.html"><img src="conteudo/return.png" alt="voltar"></a>
-    <h1>Meu Primeiro Formulário</h1>
-  </section>
-  <section id="exercicio_exhc">
 
-    <form action="cadastro.php" method="get">
-    <p>
-      <label for="inome">Nome:</label>
-      <input type="text" name="nome" id="inome">
-    </p>
-     <p>
-      <label for="isobreno">Sobrenome:</label>
-      <input type="text" name="sobreno" id="isobreno">
-    </p>
-     <input type="submit" value="Enviar">
-    </form>
 
-  </section>
-  </main>
+      <div id="title">
     
+          <div id="container-back">
+            <div class="icon">
+              <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+    
+          <h1>Meu Primerio Formulário</h1>
+    
+      </div>
+
+      <div>
+          <form action="cadastro.php" method="get">
+          <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+          </p>
+          <p>
+            <label for="isobreno">Sobrenome:</label>
+            <input type="text" name="sobreno" id="isobreno">
+          </p>
+          <input type="submit" value="Enviar">
+          </form>
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+
+  </footer>
+    
+
+  
 </body>
 </html>

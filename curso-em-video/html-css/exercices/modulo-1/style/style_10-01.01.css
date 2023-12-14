@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+* {
+  list-style-position: inside;
+} main a {
+  font-weight: bolder;
+} main a:hover {
+  text-decoration: underline;
+}

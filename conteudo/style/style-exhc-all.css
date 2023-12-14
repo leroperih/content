@@ -155,6 +155,7 @@ footer {  /* Footer ------------------------------------------------------------
   border-radius: 0.5em;
   border: 0.1em solid var(--color-lighter-white-02);
   box-shadow: 0em 0em 0.75em var(--color-dark-grey-02);
-  width: 100%;
-  max-width: 32em;
+  min-width: 0em;
+  width: 32em;
+  max-width: calc( 100% - 2em );
 }

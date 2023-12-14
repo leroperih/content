@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+* {
+  list-style-position: inside;
+} ul *,ol *, dl * {
+  margin: 0.5em;
+} dt {
+  text-indent: 1em;
+}

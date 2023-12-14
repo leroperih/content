@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+video#mar {
+  display: block;
+  width: 100%;
+  max-width: 48em;
+  border-radius: 1vw;
+} div.video {
+  max-width: 48em;
+  position: relative;
+  max-height: 27em;
+  height: 42.2vw;
+} iframe.you {
+  top: -3%;
+  position: absolute;
+  border-radius: 1vw;
+  height: 100%;
+  width: 100%;
+}

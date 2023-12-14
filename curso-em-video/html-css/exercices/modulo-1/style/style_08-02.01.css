@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+pre {
+  background-color: #050505;
+  border-radius: 01vw;
+} code {
+  font-weight: bold;
+} pre > code#ex01 {
+  color: #556b2f;
+}

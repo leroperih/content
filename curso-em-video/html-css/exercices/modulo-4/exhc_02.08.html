@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Exemplo de Formulário</h1>
+  
+      </div>
+
+      <div>
+
+          <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+              <label for="i1n">1° Número:</label>
+              <input type="number" name="1n" id="i1n" oninput="isoma.innerHTML = Number(i1n.value) + Number(i2n.value)">
+            </p>
+            <p>
+              <label for="i2n">2° Número:</label>
+              <input type="number" name="2n" id="i2n" oninput="isoma.innerHTML = Number(i1n.value) + Number(i2n.value)">
+            </p>
+            <p>
+              <label for="isoma">Soma:</label>
+              <output name="soma" id="isoma">0</output>
+            </p>
+            <p>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+            </p>
+          </form>
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+
+  </footer>
+
+
+
+</body>
+</html>

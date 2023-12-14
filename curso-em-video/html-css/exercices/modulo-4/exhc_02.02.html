@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
   <title>Formulário</title>
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+
 </head>
 <body class="scroll">
 
@@ -22,23 +24,27 @@
             </div>
           </div>
 
-          <h1>Exemplo de Formulário</h1>
+          <h1>Teste de Formulário</h1>
   
       </div>
 
       <div>
-          <form action="cadastro.php" method="get" autocomplete="on">
-            <p>
-              <label for="inum">Número</label>
-              <input type="range" name="num" id="inum" min="0" max="10" value="5"
-              oninput="inumva.innerHTML = Number(inum.value) ">
-              <output name="numva" id="inumva">5</output>
-            </p>
-            <p>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Limpar">
-            </p>
+
+          <form action="cadastro.php" autocomplete="off">
+          <p>
+            <label for="i#user_na">Nome de Usuário:</label>
+            <input type="text" name="user_na" id="i#user_na" required autocomplete="name">
+          </p>
+          <p>
+            <label for="i#user_pass">Senha de Usuário:</label>
+            <input type="password" name="user_pass" id="i#user_pass" required minlength="8">
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+          </p>
           </form>
+
       </div>
 
 
@@ -47,10 +53,10 @@
 
 
   <footer>
-
+    
   </footer>
 
 
-
+    
 </body>
 </html>

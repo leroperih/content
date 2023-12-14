@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
   <title>Formulário</title>
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+
 </head>
 <body class="scroll">
 
@@ -27,21 +29,30 @@
       </div>
 
       <div>
+
           <form action="cadastro.php" method="get" autocomplete="on">
+          <fieldset>
+            <legend>Dados pessoais</legend>
             <p>
-              <label for="inas">Em qual ano você nasceu?</label>
-              <input type="number" name="nas" id="inas" min="1920" max="2023" value="2000" oninput="calc_idade()">
+              <label for="i#nome">Nome:</label>
+              <input type="text" name="nome" id="i#nome" autocomplete="name" placeholder="Nome" minlength="5" maxlength="24">
             </p>
             <p>
-              <label for="iida">Você fará, ou já fez,</label>
-              <output name="ida" id="iida">__</output>
-              <label for="iida">anos de idade esse ano.</label>
+              <label for="i#email">E-mail:</label>
+              <input type="email" name="email" id="i#email" autocomplete="email" placeholder="nome de email @email">
             </p>
             <p>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Limpar">
+              <label for="i#tell">Telefone Celular:</label>
+              <input type="tel" name="tell" id="i#tell" autocomplete="tel" requiredpattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00) 0000-0000">
             </p>
+            <!-- Estudar mais sobre RegEx-->
+          </fieldset>
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+          </p>
           </form>
+
       </div>
 
 
@@ -52,15 +63,6 @@
   <footer>
 
   </footer>
-    
-
-
-  <script>
-  function calc_idade() {
-    anatu = new Date().getFullYear()
-    iida.innerHTML = Number(anatu) - Number(inas.value)
-  }
-  </script>
 
 
 

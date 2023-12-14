@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
   <title>Formulário</title>
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+
 </head>
 <body class="scroll">
 
@@ -27,24 +29,26 @@
       </div>
 
       <div>
-          <form action="cadastro.php" method="get" autocomplete="on">
+
+          <form action="cadastro.php" method="POST">
             <p>
-              <label for="i1n">1° Número:</label>
-              <input type="number" name="1n" id="i1n" oninput="isoma.innerHTML = Number(i1n.value) + Number(i2n.value)">
+              <label for="i#cor">Cor:</label>
+              <input type="color" name="cor" id="i#cor" value="#35363a">
             </p>
             <p>
-              <label for="i2n">2° Número:</label>
-              <input type="number" name="2n" id="i2n" oninput="isoma.innerHTML = Number(i1n.value) + Number(i2n.value)">
+              <label for="i#nivel">Nivel de Saturação:</label>
+              <input type="range" name="nivel" id="i#nivel">
             </p>
             <p>
-              <label for="isoma">Soma:</label>
-              <output name="soma" id="isoma">0</output>
+              <label for="i#foto">Foto do Usuário:</label>
+              <input type="file" name="foto" id="i#foto">
             </p>
             <p>
               <input type="submit" value="Enviar">
               <input type="reset" value="Limpar">
             </p>
           </form>
+
       </div>
 
 

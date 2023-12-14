@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-/* CSS para Telas na Horizontal */
-
-body {
-
-  background: #233eff url("../../conteudo/exhc-04_03/cev-landscape.jpg") center bottom no-repeat;
-  background-size: contain;
-}

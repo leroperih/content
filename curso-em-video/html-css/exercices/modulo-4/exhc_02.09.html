@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
   <title>Formulário</title>
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-all.css" media="all">
   <link rel="stylesheet" href="../../../../conteudo/style/style-exhc-desktop.css" media="screen and (min-width: 600px)">
+
 </head>
 <body class="scroll">
 
@@ -27,28 +29,20 @@
       </div>
 
       <div>
+
           <form action="cadastro.php" method="get" autocomplete="on">
-          <fieldset>
-            <legend>Dados pessoais</legend>
             <p>
-              <label for="i#nome">Nome:</label>
-              <input type="text" name="nome" id="i#nome" autocomplete="name" placeholder="Nome" minlength="5" maxlength="24">
+              <label for="inum">Número</label>
+              <input type="range" name="num" id="inum" min="0" max="10" value="5"
+              oninput="inumva.innerHTML = Number(inum.value) ">
+              <output name="numva" id="inumva">5</output>
             </p>
             <p>
-              <label for="i#email">E-mail:</label>
-              <input type="email" name="email" id="i#email" autocomplete="email" placeholder="nome de email @email">
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
             </p>
-            <p>
-              <label for="i#tell">Telefone Celular:</label>
-              <input type="tel" name="tell" id="i#tell" autocomplete="tel" requiredpattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00) 0000-0000">
-            </p>
-            <!-- Estudar mais sobre RegEx-->
-          </fieldset>
-          <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-          </p>
           </form>
+
       </div>
 
 

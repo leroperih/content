@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) .ba { background-color: #2e0256; color: #a5d575; }
+main > div:nth-of-type(2) .in { background-color: #2e0256; color: #f1c574; }
+main > div:nth-of-type(2) .av { background-color: #2e0256; color: #fe5d5d; }
+.es { text-indent: 1em; }

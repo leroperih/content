@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) h2 {
+  background-color: #d3d3d3;
+  color: #2a0051;
+  border: 0.25em solid #cf9efd;
+  outline: 0.25em dashed #5f00b7;
+  text-align: center;
+  width: 8.5em;
+  padding: 3em 0em 3em 0em;
+  margin: 2em auto 3em auto;
+} a#link1 {
+  padding: 0.25em 0.5em;
+  border: 0.225em solid #e22b2b;
+  margin: 0em 0.5em;
+} a#link2 {
+  display: block;
+  padding: 0.25em 0.5em;
+  border: 0.225em solid #e22b2b;
+  width: 18em;
+}

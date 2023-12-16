@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+body {
+  height: 98vh;
+  border: 0.25em dashed #000000;
+  background-image: url("https://raw.githubusercontent.com/gustavoguanabara/html-css/master/imagens/mascote.png");
+  background-size: 12.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

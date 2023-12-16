@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+/*
+Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typoghaphy)
+- svg
+*/
+
+
+@font-face {
+font-family: Minha Fonte;
+src: url("../../../../../conteudo/OldLondon.ttf");
+}
+
+
+:root {
+  --font-02: 'Amatic SC', cursive;
+  --font-03: 'Minha Fonte', sans-serif;
+}
+
+
+h2#padrao {
+  font-family: Arial, Helvetica, sans-serif;  /* O navegador vai tentar carregar a primeira, se não funcionar, passa pra próxima */
+} h2#google {
+  font-family: var(--font-02);  /* Fonte local importada da linha 9 até 12 */
+} h2#local {
+  font-family: var(--font-03);  /* Fonte local importada da linha 9 até 12 */
+}

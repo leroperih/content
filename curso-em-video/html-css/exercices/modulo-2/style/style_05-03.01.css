@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) div {
+  max-width: 100%;
+  display:inline-block;  /* exibe uma div ao lado da outra, em linha */
+  width: 200px;  /* largura do bloco */
+  height: 200px;  /* altura do bloco */
+  background-color: lightgray;
+  border: 1px solid black;  /* borda do bloco */
+  margin: 0.1em;
+} div#area01 {  /* configurações exclusivas do elemento com ID "area01" */
+  background-color: darkred;
+} #area02 {  /* não é necessário colocar o nome da tag, basta o ID */
+  background-color: darkolivegreen;
+} div#area03, div#area05 {  /* podemos atribuir propriedades a mais de um elemento */
+  background-color: darkblue;
+}
+
+
+/* a "area04" não teve nenhuma configuração especial, logo ficará sendo exibida como uma div comum (cinza) */

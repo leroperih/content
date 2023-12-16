@@ -1,0 +1,7 @@
+@charset "UF-8";
+
+
+body > main > div:nth-of-type(2) {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic ;
+}

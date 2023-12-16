@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+div.bloco {
+  background-image: url("../conteudo/wallpaper002.jpg");
+  background-size: 120vw;
+  border-radius: 1em;
+  height: 20vw;
+  border: 0.25vw solid #000000;
+  width: 90%;
+} div#q1 {
+  background-position: left top;
+} div#q2 {
+  background-position: left center;
+} div#q3 {
+  background-position: right bottom;
+} div#q4 {
+  background-position: center center;
+}

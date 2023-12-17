@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+iframe {
+  background-color: var(--color-dark-black-01);
+  text-align: center;
+} ul {
+  list-style-position: inside;
+} li {
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+}

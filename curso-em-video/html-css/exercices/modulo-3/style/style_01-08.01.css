@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) div { 
+  width: 90%;
+  height: 400px;
+  background-color: lightgray;
+  border: 1px solid black;
+} div#area001 {
+  background-image: url('../conteudo/pattern001.png');
+  background-repeat: repeat;
+} div#area002 {
+  background-image: url('../conteudo/pattern002.png');
+  background-repeat: repeat-x;
+} div#area003 {
+  background-image: url('../conteudo/pattern003.png');
+  background-repeat: repeat-y;
+} div#area004 {
+  background-image: url('../conteudo/pattern004.png');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+table {
+  border-collapse: collapse;
+  font-weight: bold;
+  border: 0.25em solid #000000;
+  width: 100%;
+} main > div:nth-of-type(2) caption {
+  background-color: #6f6f6f;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em 0em;
+  width: 100%;
+  color: #f5f5f5;
+} main > div:nth-of-type(2) thead ,
+  main > div:nth-of-type(2) tfoot {
+  background-color: #1f1f1f;
+} main > div:nth-of-type(2) thead * ,
+  main > div:nth-of-type(2) tfoot * {
+  color: #f5f5f5;
+}
+
+
+thead > tr > th {
+  position: sticky;
+  top: -0.25em;
+  background-color: #1f1f1f;
+} tbody > tr:nth-child(2n) {
+  background-color: #cfcfcf;
+} td, th {
+  border: 0.1em solid #000000;
+  padding: 0.5em;
+} td.num {
+  text-align: right;
+}

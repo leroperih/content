@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+div#overflow {
+  overflow-y: auto;
+} table {
+  border-collapse: collapse;
+  width: 52em;
+} caption {
+  margin-bottom: 1em;
+  font-weight: bold;
+} th, td {
+  font-size: 1em;
+  padding: 0.5em;
+  border: 0.1em solid #000000;
+  width: 8em;
+} tr {
+  width: 16em;
+}

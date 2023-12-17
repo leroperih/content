@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+body {
+  background: #000000 url("../conteudo/wallpaper002.jpg") center center no-repeat fixed;
+  background-size: cover;
+} code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+
+/*
+  background-image: Url("conteudo/wallpaper002.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+*/
+
+
+/*
+  Shorthand - background
+  color > image > position > repeat > [size] > attachment
+*/

@@ -131,14 +131,15 @@ main { /* Main -----------------------------------------------------------------
   max-width: 70em;
   margin: 1.5em auto;
 } main > div:nth-of-type(2) {
+  box-sizing: border-box;
   background-color: var(--color-lighter-white-01);
   border-radius: 0.75em;
-  padding: 1em;
+  padding: 2em;
   border: 0.05em solid var(--color-dark-grey-01);
 } main > div:nth-of-type(2) * {
   color: var(--color-darkest-black-01);
 } main > div:nth-of-type(2) > * {
-  margin: 1em;
+  margin: 1em 0em;
 } main > div:nth-of-type(2) > p {
   text-indent: 1.5em;
 }
@@ -150,6 +151,16 @@ form > * {
 } fieldset ,
  fieldset * {
   padding: 0.25em;
+}
+
+main > div:nth-of-type(2) table {
+  margin: auto;
+}
+
+iframe#tela {
+  border-radius: 1vw;
+  height: 24em;
+  width: 100%;
 }
 
 

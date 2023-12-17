@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+#container {
+  background-color: #800080;
+  position: relative;
+  padding: 1em;
+  min-height: 24vw;
+} #conteudo {
+  text-align: center;
+  transform: translate( -50%, -50% );
+  font-size: 2vw;
+  position: absolute;
+  margin: 0em;
+  left: 49%;
+  top: 50%;
+}

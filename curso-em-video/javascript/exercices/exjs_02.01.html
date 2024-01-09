@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
-  <title>Primeiro JS</title>
+  <title>Interação JS</title>
   <link rel="stylesheet" href="../../../conteudo/style/style-exjs-all.css" media="all">
   <link rel="stylesheet" href="../../../conteudo/style/style-exjs-desktop.css" media="screen and (min-width: 600px)">
   
@@ -20,15 +20,17 @@
 
           <div id="container-back">
             <div class="icon">
-              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt="Símbolo de Voltar"></a>
+              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
             </div>
           </div>
 
-          <h1>Primeiro JavaScript</h1>
+          <h1>Interagindo com um Botão</h1>
 
       </div>
 
       <div>
+
+          <button onclick="clicou()" id="unico">Clique em mim!</button>
 
       </div>
 
@@ -44,7 +46,9 @@
 
 
   <script>
-    alert("Olá, Mundo!")
+      function clicou() {
+      alert("Parabéns! Você clicou no botão!")
+      }
   </script>
 
 

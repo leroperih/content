@@ -34,9 +34,9 @@
   --color-dark-grey-01: #2f2f2f;
   --color-dark-grey-02: #2f2f2f80;
 
-  --study-color-01: #4444ff;
-  --study-color-02: #4444ff88;
-  --study-color-03: #4444ff44;
+  --study-color-01: #ffee40;
+  --study-color-02: #ffee4080;
+  --study-color-03: #ffee4040;
 
 
 
@@ -167,11 +167,6 @@ iframe#tela {
 
 
 footer {  /* Footer -------------------------------------------------------------------------------------------------------------------- */
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5em;
-  padding: 0em 1em;
   position: absolute;
   bottom: 0em;
   width: 100%;
@@ -179,12 +174,6 @@ footer {  /* Footer ------------------------------------------------------------
   background-color: var(--color-medium-black-02);
 } footer * {
   color: var(--color-lighter-white-02);
-} footer > div {
-  display: flex;
-  align-items: center;
-  gap: 1.75em;
-} footer > div > a > img {
-  height: 2em;
 }
 
 
@@ -196,4 +185,46 @@ footer {  /* Footer ------------------------------------------------------------
   min-width: 0em;
   width: 32em;
   max-width: calc( 100% - 2em );
+}
+
+
+
+
+main > div:nth-of-type(2) button {
+  background-color: var(--color-medium-black-01);
+  color: var(--color-lighter-white-02);
+  border-radius: 0.25em;
+  border: 0.05em solid var(--color-darkest-black-01);
+} main > div:nth-of-type(2) button:hover {
+  background-color: var(--color-dark-grey-01);
+} button#unico {
+  margin: 0em;
+  padding: 0.5em;
+  font-size: 1.75em;
+}
+
+
+
+
+section#res {
+  margin-bottom: 0em;
+  border: 0.05em solid var(--color-darkest-black-01);
+  border-radius: 0.25em;
+  background-color: var(--color-medium-black-02);
+  box-shadow: inset 0em 0em 1vw var(--color-medium-black-02);
+  font-size: 1.5em;
+  padding: 1.25em;
+  color: var(--color-dark-black-01);
+}
+
+
+
+div#code-js {
+  padding: 1em;
+  background-color: var(--color-medium-black-01);
+  border: 0.05em solid var(--color-darkest-black-01);
+  border-radius: 0.75em;
+} div#code-js > code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #008000;
 }

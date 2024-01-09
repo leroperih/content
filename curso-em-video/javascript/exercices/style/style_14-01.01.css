@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+:root {
+
+  --color-mid-night: #280f05;
+}
+
+
+div#title {
+  margin-top: 1em;
+} main > * {
+  max-width: 38em;
+} main * {
+  align-items: center;
+  display: flex;
+} main > div#title * {
+  margin: 0em;
+} main > div#title > * {
+  margin-bottom: 0em;
+  box-sizing: border-box;
+  padding: 0.25em;
+  height: 2.5em;
+} main > div#title > h1 {
+  padding-right: 1em;
+  justify-content: right;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+body.meia-noite {
+  
+}

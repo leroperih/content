@@ -5,11 +5,11 @@
   background-color: #800080;
   position: relative;
   padding: 1em;
-  min-height: 24vw;
+  min-height: 18em;
 } #conteudo {
   text-align: center;
   transform: translate( -50%, -50% );
-  font-size: 2vw;
+  font-size: min( 1.25em , 10vw );
   position: absolute;
   margin: 0em;
   left: 49%;

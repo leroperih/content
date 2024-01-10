@@ -170,8 +170,7 @@ footer {  /* Footer ------------------------------------------------------------
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  gap: 1.5em;
-  padding: 0em 1em;
+  padding: 0em 2em;
   position: absolute;
   bottom: 0em;
   width: 100%;
@@ -198,10 +197,6 @@ footer {  /* Footer ------------------------------------------------------------
   max-width: calc( 100% - 2em );
 }
 
-#op-navbar-one:nth-of-type(1) {
+footer > div#op-navbar-fin > p {
   margin-right: 1.75em;
-}
-
-#op-navbar-one:nth-of-type(2) {
-  margin-left: 1.75em;
 }

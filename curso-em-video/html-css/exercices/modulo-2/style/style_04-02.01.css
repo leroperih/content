@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-p {  /* por padrão, todos os parágrafos desse site serão justificados */
+main p {  /* por padrão, todos os parágrafos desse site serão justificados */
   text-align: justify;
   text-indent: 20pt;  /* todos terão aquele recuo que todo parágrafo tem no início */
 } p.meio {  /* a não ser os que possuem a classe "meio", que ficarão centralizados */

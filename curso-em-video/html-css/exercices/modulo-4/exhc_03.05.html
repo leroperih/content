@@ -30,8 +30,16 @@
 
       <div>
 
-          <i id="burger"><p onclick="clickMenu()">__<br>__<br>__</p></i>
-          <menu id="menbur">
+          <div id="container-burge" onclick="ClickBurge()">
+                    <div>
+                      <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </div>
+          </div>
+          <menu id="container-links">
             <ul>
               <li><a href="#" id="op1">Opção 1</a></li>
               <li><a href="#">Opção 2</a></li>
@@ -55,20 +63,18 @@
 
 
   <footer>
-
+      <div>
+        <a href="https://youtu.be/Zp3fnf99kTg?si=Kaj-n4XPBbWtT7Om" target="_blank"><img src="../../../../conteudo/icon_link-youtube.png" alt="youtube icon"></a>
+      </div>
+      <div id="op-navbar-fin">
+        <a href="exhc_03.04.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 03.05</p>
+      </div>
   </footer>
 
 
 
-  <script>
-      function clickMenu() {
-        if ( menbur.style.display == 'none' ) {
-          menbur.style.display = 'block'
-        } else {
-        menbur.style.display = 'none'
-        }
-      }
-  </script>
+  <script src="script/burger-button.js"></script>
 
 
 

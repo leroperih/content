@@ -5,7 +5,7 @@
 
 body {
 
-  background: #233eff url("../../conteudo/exhc-04_03/cev-portrait.jpg") left bottom no-repeat;
+  background: #233eff url("../conteudo/cev-portrait.jpg") left bottom no-repeat;
   background-size: contain;
 }
 }
@@ -15,7 +15,7 @@ body {
 
 body {
 
-  background: #233eff url("../../conteudo/exhc-04_03/cev-landscape.jpg") center bottom no-repeat;
+  background: #233eff url("../conteudo/cev-landscape.jpg") center bottom no-repeat;
   background-size: contain;
 }
 }

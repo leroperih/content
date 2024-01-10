@@ -6,9 +6,9 @@ html {
   height: 100vh;
   width: 100vw;
 }
-body {
+main > div:nth-of-type(2) {
 
-  background: #050505 url(../../conteudo/04_03/back-phone.jpg) center center no-repeat;
+  background: #050505 url(../conteudo/back-phone.jpg) center center no-repeat;
   background-size: cover;
 }
 

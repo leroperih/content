@@ -6,9 +6,9 @@
 
 @media print {
 
-    body {
+    main > div:nth-of-type(2) {
     
-      /* background: url("../../conteudo/04_03/back-print.jpg");  desnecessário */
+      /* background: url("../conteudo/back-print.jpg");  desnecessário */
       font-family: 'Courier New', Courier, monospace;
     }
     
@@ -23,9 +23,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
 
-body {
+main > div:nth-of-type(2) {
 
-  background: url("../../conteudo/04_03/back-tablet.jpg");
+  background: url("../conteudo/back-tablet.jpg");
+  background-size: cover;
 }
 
 img#tel, img#imp, img#pc, img#tv {
@@ -38,9 +39,10 @@ img#tel, img#imp, img#pc, img#tv {
 
 @media screen and (min-width: 992px) and (max-width: 1200px) { /* Desktop */
 
-body {
+main > div:nth-of-type(2) {
 
-  background: url("../../conteudo/04_03/back-pc.jpg");
+  background: url("../conteudo/back-pc.jpg");
+  background-size: cover;
 }
 
 img#tel, img#imp, img#tbl, img#tv {
@@ -53,9 +55,10 @@ img#tel, img#imp, img#tbl, img#tv {
 
 @media screen and (min-width: 1200px) { /* Telas Grandes */
 
-body {
+main > div:nth-of-type(2) {
 
-  background: url("../../conteudo/04_03/back-tv.jpg");
+  background: url("../conteudo/back-tv.jpg");
+  background-size: cover;
 }
 
 img#tel, img#imp, img#pc, img#tbl {

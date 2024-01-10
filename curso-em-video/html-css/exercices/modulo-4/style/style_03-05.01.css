@@ -16,6 +16,10 @@ menu#menbur {
   display: none;
 }
 
+div#container-linso.openBurge {
+  display: flex;
+}
+
 menu {
 
   display: block;
@@ -58,4 +62,12 @@ article > p {
   text-align: justify;
   margin-bottom: 1em;
   text-indent: 1em;
+}
+
+
+
+
+
+div#container-linso.openBurge {
+  display: flex;
 }

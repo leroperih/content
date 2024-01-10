@@ -9,6 +9,7 @@
 :root {
 
   --header-content-size: 4.25em;
+  --social-element-size: 3.25em;
 
 
 
@@ -125,6 +126,30 @@ div.icon:hover > div {
 
 
 
+
+ div#container-burge * {  /* Menu Burge */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ } div#container-burge ,
+  div#container-burge > div {
+  width: var(--social-element-size);
+  height: var(--social-element-size);
+  cursor: pointer;
+  border: 0.1em solid var(--color-dark-black-02);
+  box-sizing: border-box;
+ } div#container-burge > div > div {
+  width: 64%; height: 64%;
+  justify-content: space-around;
+  flex-direction: column;
+} div#container-burge > div > div * {
+  width: 85%; height: 0.2em;
+  background-color: var(--color-darkest-black-01);
+}
+
+
+
+
 main { /* Main ------------------------------------------------------------------------------------------------------------------------- */
   padding: 0em 1em;
   margin-bottom: 9em;
@@ -200,3 +225,32 @@ footer {  /* Footer ------------------------------------------------------------
 footer > div#op-navbar-fin > p {
   margin-right: 1.75em;
 }
+
+
+
+menu#container-links {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {  /* sub 600px ----------------------------------------------------------------------------------- */
+
+
+  menu#container-links.openBurge { /* Bar Social Links */
+    display: block;
+    padding: 0.2em;
+    border-radius: 0.75em;
+  } menu#container-links * {
+    width: 100%;
+  } menu#container-links ul {
+    background-color: var(--color-dark-black-05);
+    gap: 0.15em;
+  } menu#container-links li {
+    border-radius: 0.45em;
+    width: 100%;
+  } menu > ul > li:hover {  /* Hover Social Nav Content */
+    box-shadow: inset 0em 0em 0.8em var(--hover-color-02);
+  }
+}  

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) > h2:nth-of-type(1) {
+  margin-top: 0.5em;
+} main > div:nth-of-type(2) > img {
+  margin: 0em;
+} ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85em;
+} a:hover {
+  text-decoration: underline;
+}

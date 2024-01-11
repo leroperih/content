@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+main div:nth-of-type(2) {
+  padding: 1em;
+} main > div:nth-of-type(2) img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}

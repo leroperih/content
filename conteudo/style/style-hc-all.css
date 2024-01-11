@@ -56,7 +56,6 @@
 } body, html {
   background-color: var(--color-dark-black-01);
   width: 100vw; min-height: 100vh;
-  margin: auto;
   perspective: 10px;
   overflow-x: hidden;
 } body {

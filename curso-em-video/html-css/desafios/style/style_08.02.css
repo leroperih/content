@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+
+body {
+  background: url("../conteudo/bg-night-desk.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+
+footer {
+  background-color: var(--color-darkest-black-03);
+}
+
+
+div#de-08-amare {
+  background-color: #ffff80;
+} div#de-08-laran {
+  background-color: #ffb060;
+}
+
+
+@media screen and (max-width: 350px) {
+
+body { background-image: url("../conteudo/bg-night-celular.jpg"); }
+}
+
+
+@media screen and (max-width: 600px) {
+
+body { background-image: url("../conteudo/bg-night-celular.jpg"); }
+}

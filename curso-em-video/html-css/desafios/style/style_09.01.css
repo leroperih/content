@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) div {
+  margin: auto;
+  max-width: 32em;
+  display: grid;
+  grid-template-columns: repeat( 2 , 1fr );
+  gap: 1em;
+} main > div:nth-of-type(2) a.video {
+  transition-duration: 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} main > div:nth-of-type(2) a.video:hover > img {
+  box-shadow: 0em 0em 0.75em var(--color-dark-black-02);
+  width: 95%;
+} main > div:nth-of-type(2) a.video > img {
+  border: 0.075em solid var(--color-dark-grey-01);
+  border-radius: 0.6em;
+  transition-duration: 0.25s;
+  width: 100%;
+}

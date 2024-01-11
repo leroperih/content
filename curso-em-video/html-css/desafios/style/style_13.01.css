@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) {
+padding: 0.25em;
+} div#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#content > div#table-1 ,
+div#content > div#table-2 {
+  max-width: 24em;
+  width: 60%;
+} main table {
+  width: 64%;
+  margin: 0em;
+} td {
+  text-shadow: 0em 0em 0.25em #d09ad4;
+  color: #d09ad4;
+  font-size: 1.25em;
+  border: 0.15em solid #d09ad4;
+  padding: 0.25em;
+  text-align: center;
+}
+
+
+
+
+div#content > button > img {
+  width: 3.5em;
+}
+
+
+
+
+div#table-2 {
+  display: none;
+} button {
+  transition-duration: 0.1s;
+  border: none;
+  cursor: pointer;
+} button:hover {
+  background-color: var(--color-light-grey-02);
+} button:active {
+  background-color: #d09ad4;
+}

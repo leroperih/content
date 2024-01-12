@@ -4,27 +4,61 @@
 :root {
 
   --color-mid-night: #280f05;
+  --color-box-mid-night: #212121;
+  --color-text-mid-night: #C86932;
+
+  --color-evening: #261314;
+  --color-box-evening: #212121;
+  --color-text-evening: #55088A;
+
+  --color-sunset: #A47640;
+  --color-box-sunset: #f5f5f5;
+  --color-text-sunset: #97BCD0;
+
+  --color-day: #737D6E;
+  --color-box-day: #f5f5f5;
+  --color-text-day: #697179;
+
+  --color-midday: #A5B7F1;
+  --color-box-midday: #f5f5f5;
+  --color-text-midday: #4A81E6;
+
+  --color-morning: #99B2D1;
+  --color-box-morning: #f5f5f5;
+  --color-text-morning: #CD9B12;
+
+  --color-sunrise: #8c9c9f;
+  --color-box-sunrise: #f5f5f5;
+  --color-text-sunrise: #E9A393;
+
+  --color-night: #000101;
+  --color-box-night: #050C0D;
+  --color-text-night: #8C251C;
+
 }
 
 
+
 div#title {
-  margin-top: 1em;
-} main > * {
-  max-width: 38em;
-} main * {
-  align-items: center;
   display: flex;
-} main > div#title * {
-  margin: 0em;
-} main > div#title > * {
+} div#title > * {
   margin-bottom: 0em;
-  box-sizing: border-box;
-  padding: 0.25em;
-  height: 2.5em;
-} main > div#title > h1 {
+} div#title > h1 {
   padding-right: 1em;
   justify-content: right;
   width: 100%;
+}
+
+
+main > * {
+  max-width: 34em;
+} main * {
+  align-items: center;
+  display: flex;
+} div#box {
+  flex-direction: column;
+} div#box > * {
+  max-width: 80%;
 }
 
 
@@ -35,5 +69,72 @@ div#title {
 
 
 body.meia-noite {
-  
+  background-color: var(--color-mid-night);
+} body.meia-noite div#box {
+  background-color: var(--color-box-mid-night);
+} body.meia-noite div#box > p {
+  color: var(--color-text-mid-night);
+}
+
+
+body.noite {
+  background-color: var(--color-evening);
+} body.noite div#box {
+  background-color: var(--color-box-evening);
+} body.noite div#box > p {
+  color: var(--color-text-evening);
+}
+
+
+body.anoitecer {
+  background-color: var(--color-sunset);
+} body.anoitecer div#box {
+  background-color: var(--color-box-sunset);
+} body.anoitecer div#box > p {
+  color: var(--color-text-sunset);
+}
+
+
+body.tarde {
+  background-color: var(--color-day);
+} body.tarde div#box {
+  background-color: var(--color-box-day);
+} body.tarde div#box > p {
+  color: var(--color-text-day);
+}
+
+
+body.meio-dia {
+  background-color: var(--color-midday);
+} body.meio-dia div#box {
+  background-color: var(--color-box-midday);
+} body.meio-dia div#box > p {
+  color: var(--color-text-midday);
+}
+
+
+body.manha {
+  background-color: var(--color-morning);
+} body.manha div#box {
+  background-color: var(--color-box-morning);
+} body.manha div#box > p {
+  color: var(--color-text-morning);
+}
+
+
+body.amanhecer {
+  background-color: var(--color-sunrise);
+} body.amanhecer div#box {
+  background-color: var(--color-box-sunrise);
+} body.amanhecer div#box > p {
+  color: var(--color-text-sunrise);
+}
+
+
+body.madrugada {
+  background-color: var(--color-night);
+} body.madrugada div#box {
+  background-color: var(--color-box-night);
+} body.madrugada div#box > p {
+  color: var(--color-text-night);
 }

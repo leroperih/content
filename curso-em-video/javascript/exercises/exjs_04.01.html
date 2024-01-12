@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
-  <title>Números com JS</title>
+  <title>Dados com JS</title>
   <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
   <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
   
@@ -24,17 +24,17 @@
             </div>
           </div>
 
-          <h1>Somando Dois Números</h1>
+          <h1>Trabalhando com Dados V2.1</h1>
 
       </div>
 
       <div>
 
-          <button onclick="somar()" id="unico">Iniciar a soma</button>
+          <button onclick="inicio()" id="unico">Clique para começar</button>
 
 
           <section id="res">
-            <p>O resultado vem aqui...</p>
+            <p>Aqui vai aparecer o resultado...</p>
           </section>
 
       </div>
@@ -47,25 +47,23 @@
   <footer>
       <div>
         <a href="https://youtu.be/cAgkwPWE4hU?si=Ml84ZspEJ9f5idQL" target="_blank"><img src="../../../conteudo/icon_link-youtube.png" alt="youtube icon"></a>
-        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex006" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex004" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
       </div>
       <div>
-        <a href="exjs_05.01.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
-        <p>EX 06</p>
-        <a href="exjs_07.01.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+        <a href="exjs_03.01.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 04.01</p>
+        <a href="exjs_04.02.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
       </div>
   </footer>
 
 
-  
-  <script>
-      function somar() {
-        num1 = Number(prompt("Digite um número:"))
-        num2 = Number(prompt("Digite outro número:"))
-        res = document.querySelector("section#res")
 
-        res.innerHTML = `<p>A soma entre <strong>${num1}</strong> e <strong>${num2}</strong> é igual a <strong>${num1+num2}</strong>!</p>`
-    }
+  <script>
+      function inicio() {
+        nome = prompt("Qual é o seu nome?")
+        res = document.querySelector("section#res")
+        res.innerHTML = `<p>Olá, <strong>${nome}</strong>! É um grande prazer te conhecer!</p>`
+      }
   </script>
 
 

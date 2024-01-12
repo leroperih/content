@@ -174,7 +174,7 @@ div#container-title h1 {  /* Study Título */
   align-items: center;
   gap: 0.25em;
   transition-duration: 0.35s;
-  font-size: 1.8em;
+  font-size: min( 1.8em , 6vw );
 } div#container-title h1 > span {
   white-space: nowrap;
   color: var(--color-light-grey-01);
@@ -393,6 +393,13 @@ div#cont-modulos {
   border-bottom: 0.05em solid transparent;
   display: block;
   width: 100%;
+} div#cont-modulos a {
+  display: flex;
+  align-items: start;
+  gap: 0.2em;
+} div#cont-modulos a span {
+  padding-top: 0.25em;
+  font-size: 0.6em;
 } nav.links-wrape {
 
   border-radius: 0.25em;

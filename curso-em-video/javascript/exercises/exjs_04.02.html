@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
-  <title>Dados com JS</title>
+  <title>Fazendo Desafios</title>
   <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
   <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
-  
+
 </head>
 <body class="scroll">
 
@@ -24,18 +24,13 @@
             </div>
           </div>
 
-          <h1>Trabalhando com Dados V2.0</h1>
+          <h1>Trabalhando com Dados V2.2</h1>
 
       </div>
 
       <div>
 
-          <button onclick="inicio()" id="unico">Clique para começar</button>
-
-
-          <section id="res">
-            <p>Aqui vai aparecer o resultado...</p>
-          </section>
+          <section id="res"></section>
 
       </div>
 
@@ -46,12 +41,11 @@
 
   <footer>
       <div>
-        <a href="https://youtu.be/cAgkwPWE4hU?si=Ml84ZspEJ9f5idQL" target="_blank"><img src="../../../conteudo/icon_link-youtube.png" alt="youtube icon"></a>
-        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex004" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+        <a href="https://youtu.be/OJgu_KCCUSY?si=s6xC5q2dSd3hxHZa" target="_blank"><img src="../../../conteudo/icon_link-youtube.png" alt="youtube icon"></a>
       </div>
       <div>
-        <a href="exjs_03.01.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
-        <p>EX 04</p>
+        <a href="exjs_04.01.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 04.02</p>
         <a href="exjs_05.01.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
       </div>
   </footer>
@@ -59,11 +53,20 @@
 
 
   <script>
-      function inicio() {
-        nome = prompt("Qual é o seu nome?")
-        res = document.querySelector("section#res")
-        res.innerHTML = `<p>Olá, <strong>${nome}</strong>! É um grande prazer te conhecer!</p>`
-      }
+
+    res = document.querySelector("section#res")
+
+
+    nome = prompt("Qual é o seu nome?")
+
+    if ( nome == "" ) {
+        nome = "Sr. Nada"
+    }
+
+    res.innerHTML = `Olá, ${nome}! Seu nome tem ${nome.length} letras.<br><br>`
+    res.innerHTML += `Seu nome em maiúsculas é ${nome.toUpperCase()}.<br>`
+    res.innerHTML += `Seu nome em minúsculas é ${nome.toLowerCase()}.`
+    
   </script>
 
 

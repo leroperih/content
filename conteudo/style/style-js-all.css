@@ -203,14 +203,18 @@ footer > div#op-navbar-fin > p {
 
 
 
+main > div:nth-of-type(2) input[type="button"] ,
 main > div:nth-of-type(2) button {
+  transition-duration: 0.08s;
+  min-width: 6em;
   background-color: var(--color-medium-black-01);
   color: var(--color-lighter-white-02);
   border-radius: 0.25em;
   border: 0.05em solid var(--color-darkest-black-01);
-} main > div:nth-of-type(2) button:hover {
+} main > div:nth-of-type(2) input[type="button"]:hover ,
+  main > div:nth-of-type(2) button:hover {
   background-color: var(--color-dark-grey-01);
-} button#unico {
+} main > div:nth-of-type(2) .medium-button {
   margin: 0em;
   padding: 0.5em;
   font-size: 1.75em;

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Conversor R$ &roarr; US$</h1>
+
+      </div>
+
+      <div>
+
+          <input id="con" class="medium-button" type="button" value="Converter">
+          <section id="res"><h3>clique no botão acima para iniciar</h3></section>
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d007" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_06.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 07</p>
+        <a href="dejs_08.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+
+      val_dol = parseFloat(prompt("Antes de mais nada. Quanto está a cotação do dólar agora?"))
+
+
+      con = document.querySelector("input#con")
+      con.addEventListener("click", clicar)
+
+
+      function clicar() {
+
+          din = parseFloat(prompt("Quantos R$ você tem na carteira?"))
+
+
+          cot = din / val_dol
+          cot = String(cot.toLocaleString("pt-br", {style: "currency", currency: "BRL"}))
+          val_dol = String(cot.toLocaleString("pt-br", {style: "currency", currency: "USD"}))
+
+
+          res = document.querySelector("section#res")
+          res.innerHTML = `<h3>Você tem ${din} na carteira.</h3>`
+          res.innerHTML += `<p>Você pode comprar ${cot}</p>`
+          res.innerHTML += `<p>A cotação do Dolar é ${val_dol}!</p>`
+
+
+      }
+
+
+  </script>
+
+
+
+</body>
+</html>

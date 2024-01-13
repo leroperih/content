@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="style/style_01.01.css">
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Qual é o seu tipo de waifu?</h1>
+
+      </div>
+
+      <div>
+
+          <input id="op1" class="medium-button" type="button" value="Loli">
+          <input id="op2" class="medium-button" type="button" value="Trap">
+          <input id="op3" class="medium-button" type="button" value="Elf">
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d001" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <p>DES 01</p>
+        <a href="dejs_02.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+
+        op1 = document.querySelector("input#op1")
+        op1.addEventListener("click", clicar1)
+
+        op2 = document.querySelector("input#op2")
+        op2.addEventListener("click", clicar2)
+
+        op3 = document.querySelector("input#op3")
+        op3.addEventListener("click", clicar3)
+
+
+
+
+        function clicar1() {
+            alert("O FBI está de olho em você...")
+        }
+
+
+        function clicar2() {
+            alert("Que nem feijoada...")
+        }
+
+
+        function clicar3() {
+            alert("Yamate... Yamete kudasai...")
+        }
+
+
+  </script>
+
+
+
+</body>
+</html>

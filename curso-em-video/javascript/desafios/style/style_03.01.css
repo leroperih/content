@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) {
+    text-align: center;
+}

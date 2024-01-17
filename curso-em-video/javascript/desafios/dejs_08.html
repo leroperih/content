@@ -7,7 +7,7 @@
   <title>Fazendo Desafios</title>
   <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
   <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
-
+  <link rel="stylesheet" href="style/style_08.01.css">
 </head>
 <body class="scroll">
 
@@ -31,16 +31,19 @@
       <div>
 
 
-          <div>
+        <section>
 
-              <label for="inum">Desconto:</label>
-              <input type="range" name="num" id="inum" min="0" max="10" value="2" oninput="outdescID.innerHTML = Number(inum.value) ">
-              
-
+          <div onclick="desc()">
+            <span>Descontar</span>
+            <span><output name="numva" id="outdescID">2</output>0%</span>
           </div>
 
+          <div>
+            <label for="idesc">Desconto:</label>
+            <input type="range" name="desc" id="idesc" min="0" max="10" value="2" oninput="outdescID.innerHTML = Number(idesc.value) ">
+          </div>
 
-          <p><input id="des" class="medium-button" type="button" value="Descontar"><output name="numva" id="outdescID">2</output>0%</p>
+        </section>
 
 
           <section id="res"><h3>clique no botão acima para iniciar</h3></section>
@@ -66,7 +69,45 @@
 
 
 
+  <script>
 
+
+    function desc() {
+
+      numDescont = Number(document.querySelector("input#idesc").value)
+      numDescont = numDescont * 10;
+
+      produtNome = prompt(`Qual é o nome do produto que você está comprando?`);
+      if (produtNome == '' || produtNome == null) {
+        alert(`Você não informou o nome do produto, o nome do produto passa a ser Vento.`)
+        produtNome = "Vento";
+      }
+
+      produtVal = Number(prompt(`Qual é o valor do produto ${produtNome} que você está comprando?`));
+      if (produtVal <= 0 || produtVal == "") {
+        alert(`Você não informou o valor do produto ${produtNome}, o valor do produto passa a ser R$ 20,00.`)
+        produtVal = 20
+      }
+
+
+      descont = (produtVal * numDescont) / 100;
+      finalVal = produtVal - descont;
+
+
+      descont = descont.toLocaleString("pt-br", {style: "currency", currency: "BRL"});
+      finalVal = finalVal.toLocaleString("pt-br", {style: "currency", currency: "BRL"});
+      produtVal = produtVal.toLocaleString("pt-br", {style: "currency", currency: "BRL"});
+
+
+      res = document.querySelector("section#res");
+      res.innerHTML = `<h3>O produto ${produtNome} que você comprou recebeu ${numDescont}% de desconto.</h3>`;
+      res.innerHTML += `<p>O valor do produto caiu ${descont} após o desconto de ${numDescont}%.</p>`;
+      res.innerHTML += `<p>O produto ${produtNome} que custava ${produtVal}.</p>`;
+      res.innerHTML += `<p>Agora passa a custar ${finalVal}.</p>`;
+    }
+
+
+  </script>
 
 
 

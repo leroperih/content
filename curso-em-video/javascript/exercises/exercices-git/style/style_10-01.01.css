@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) > p {
+  white-space: nowrap;
+  margin-top: 0em;
+  margin-bottom: 0.85em;
+  font-size: 1.75em;
+  text-indent: 0.25em;
+}
+input {
+  font-size: 0.8em;
+  padding: 0.25em;
+  width: 5em;
+}

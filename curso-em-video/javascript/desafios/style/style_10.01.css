@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2) div {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.75em;
+} main > div:nth-of-type(2) > div > p {
+  white-space: nowrap;
+  font-size: 1.5em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  main > div:nth-of-type(2) div {
+    flex-direction: column;
+    align-items: start;
+  }
+}

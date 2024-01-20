@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+
+main > div:nth-of-type(2) {
+  padding: 1em;
+  text-align: center;
+} main > div:nth-of-type(2) input.medium-button {
+  margin: 0.5em;
+}

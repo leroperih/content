@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="style/style_04.01.css">
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Calculando o Troco</h1>
+
+      </div>
+
+      <div>
+
+        <input id="start" class="medium-button" type="button" value="Comprar Produto">
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d004" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_03.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 04</p>
+        <a href="dejs_05.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+      star = document.querySelector("input#start")
+      star.addEventListener("click", clicar)
+
+
+      function clicar() {
+
+
+          pro = prompt("Que produto você está comprando?")
+
+
+
+
+          if ( pro == "" ) { pro = "vento" }
+
+          do  {
+              val = Number(prompt(`Quanto custa o produto: ${pro}\n  Que você está comprando?`))
+          } while( val < 0 )
+
+          do {
+              din = Number(prompt(`Qual foi o valor entregue para pagar o produto: ${pro}?`))
+          } while ( val < 0 )
+
+
+
+          tro = din - val
+          tro = tro.toLocaleString("pt-br", {style: "currency", currency: "BRL"})
+          fal = val - din
+          fal = fal.toLocaleString("pt-br", {style: "currency", currency: "BRL"})
+
+          val = val.toLocaleString("pt-br", {style: "currency", currency: "BRL"})
+          din = din.toLocaleString("pt-br", {style: "currency", currency: "BRL"})
+
+
+
+          if ( val > din ) {
+              alert(`O valor do produto: ${pro}\n  Que custa ${val} Na PerihLoja.\n  Você só tem ${din} em dinheiro.\n  Ainda falta ${fal} para pagar o produto!`)
+          } else if ( val = din ) {
+              alert(`O produto comprado: ${pro}\n  Que custou ${val} Na PerihLoja.\n  Foi pago com ${din} em dinheiro.\n  Não há troco, volte sempre!`)
+          } else if ( val < din) {
+              alert(`O produto comprado: ${pro}\n  Que custou ${val} Na PerihLoja.\n  Foi pago com ${din} em dinheiro.\n  E o seu troco é de ${tro}, volte sempre!`)  
+          }
+
+
+      }
+  </script>
+
+
+
+</body>
+</html>

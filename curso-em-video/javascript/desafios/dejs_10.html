@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="style/style_10.01.css">
+</head>
+<body class="scroll">
+
+
+
+  <main>
+
+
+      <div id="title">
+
+          <div id="container-back">
+            <div class="icon">
+              <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+            </div>
+          </div>
+
+          <h1>Resolvendo Bhaskara</h1>
+
+      </div>
+
+      <div>
+
+        <div>
+            <input id="calc" class="medium-button" type="button" value="Calcular">
+            <p>Considerando a equação <wbr>no <wbr>formato <span><strong>a</strong>x² + <strong>b</strong>x + <strong>c</strong> = 0</span></p>
+        </div>
+
+        <section id="res"><h3>clique no botão acima para iniciar</h3></section>
+
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d010" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_09.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 10</p>
+        <a href="dejs_11.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+    calc = document.querySelector("input#calc")
+    calc.addEventListener("click", calcular)
+
+    function calcular() {
+
+      valA = prompt("Qual é o valor de A?")
+      valB = prompt("Qual é o valor de B?")
+      valC = prompt("Qual é o valor de C?")
+      
+    }
+  </script>
+
+
+
+</body>
+</html>

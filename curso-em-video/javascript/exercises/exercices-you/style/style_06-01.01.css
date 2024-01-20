@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+main > div:nth-of-type(2){
+  padding: 0.5em;
+} div#event {
+  margin: 0em;
+  background-color: blueviolet;
+  height: 8em;
+  width: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

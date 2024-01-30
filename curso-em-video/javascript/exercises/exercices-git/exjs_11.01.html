@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Números com JS</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Média do(a) aluno(a)</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <button class="medium button" onclick="calcular()">Calcular Média</button>
+
+        <section id="res"><h3>O resultado vai aparecer aqui...</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex011" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="exjs_10.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 11</p>
+        <a href="exjs_12.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+  function calcular() {
+
+
+      let aluNome = window.prompt('Qual é o nome do(a) aluno(a)?')
+      let aluNomeTeste = /^[a-zA-ZÀ-ÖØ-öø-ÿ ]+$/
+      if ( aluNome == "" || !aluNomeTeste.test(aluNome) || aluNome.trim().length == 0 ) {
+          aluNome = "Flavinho" // Nome alternativo
+          window.alert(`O nome inserido é inválido!\nO nome passa a ser ${aluNome}.`)
+      } else {
+          aluNome = aluNome.replace(/\s+/g, " ")
+      }
+
+
+      let aluNot01 = Number(window.prompt(`Qual foi a primeira nota de ${aluNome}?`))
+      let aluNot02 = Number(window.prompt(`Além de ${aluNot01}, qual foi a outra nota de ${aluNome}?`))
+      aluMed = (aluNot01 + aluNot02)/2 
+    
+      
+      let msg
+
+      if (aluMed >= 6) {
+          msg = 'Meus parabéns!'
+      } else {
+          msg = 'Estude um pouco mais!'
+      }
+
+
+      let res = document.querySelector('section#res')
+      res.innerHTML =  `<p>Calculando a média final de <strong>${aluNome}</strong>.</p>`
+      res.innerHTML += `<p>As notas obtidas foram <strong>${aluNot01}</strong> e <strong>${aluNot02}</strong>.</p>`
+      res.innerHTML += `<p>A média final será <strong>${aluMed}</strong>.</p>`
+      res.innerHTML += `<p>A mensagem que temos é: <strong style='color:red;'>${msg}</strong></p>`
+  }
+  </script>
+
+
+
+</body>
+</html>

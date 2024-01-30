@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Tabuada</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Super Tabuada</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <p id="git-desf">Escreva um número na caixa a seguir e te mostrarei a tabuada dele.</p>
+
+        <div class="inputs-container">
+          <input class="medium input" type="number" name="num" id="inum" placeholder="Número:">
+          <button class="medium button" onclick="calcular()">Tabuada</button>
+        </div>
+
+        <section id="res"><h3>Preencha os dados acima e aperte o botão.</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex027" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="exjs_26.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 27</p>
+        <a href="exjs_28.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+  <script>
+    function calcular() {
+
+
+      let num = Number(document.getElementById("inum").value)
+      let res = document.querySelector("section#res")
+
+
+      let mult = 1
+
+      res.innerHTML = `<h3>Tabuada de ${num}</h3><br>`
+
+      while (mult <= 10) {
+        res.innerHTML += `<p>${String(num).padStart(2, '0')} x ${String(mult).padStart(2, '0')} = <strong>${String(num * mult).padStart(2, '0')}</strong></p>`
+        mult ++
+      }
+
+    }
+  </script>
+
+
+
+</body>
+</html>

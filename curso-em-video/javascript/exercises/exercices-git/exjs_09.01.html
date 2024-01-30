@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Contador de Cliques</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Contador de Cliques</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <div class="inputs-container">
+          <button class="medium button" onclick="contar()">Clique em Mim</button>
+          <button class="medium button" onclick="zerar()">Zerar o Contador</button>
+        </div>
+
+        <section id="res"><h3>O contador está com <strong><span id="numCont">0</span></strong> cliques</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex009" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="exjs_08.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 09</p>
+        <a href="exjs_10.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+  <script>
+
+    
+    contador = 0
+    numCont = document.querySelector("span#numCont")
+
+    function contar() {
+
+      contador ++
+      numCont.innerHTML = `${contador}`
+    }
+    function zerar() {
+
+      contador = 0
+      numCont.innerHTML = `${contador}`
+    }
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Contagem Inteligente</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Contagem "Inteligente"</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+      <div id="git-desf">
+        <div class="inputs-container">
+            <div>
+              <label id="input-sec-01" class="medium label" for="inumCo">Valor Inicial: </label>
+              <input class="medium input" type="number" name="numCo" id="inumCo" placeholder="Início da contagem">
+            </div>
+            <div>
+              <label id="input-sec-02" class="medium label" for="inumFi">Valor Final: </label>
+              <input class="medium input" type="number" name="numFi" id="inumFi" placeholder="Início da contagem">
+            </div>
+            <div>
+              <button class="medium button" onclick="contar()">Contar</button>
+            </div>
+        </div>
+
+        <section id="res"><h3>Preencha os dados acima e aperte o botão.</h3></section>
+      </div>
+
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex026" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="exjs_25.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 26</p>
+        <a href="exjs_27.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+
+    function contar() {
+
+
+      let numCo = Number(document.getElementById("inumCo").value)
+      let numFi = Number(document.getElementById("inumFi").value)
+      let cont
+      let res = document.querySelector("section#res")
+
+      res.innerHTML = `<h3>Contando de ${numCo} até ${numFi}!</h3><br>`
+
+      if ( numCo < numFi ) { // Contagem crescente!
+
+
+          cont = numCo
+
+          while ( cont <= numFi ) {
+
+
+                if ( cont == numCo ) { // Acabou de Começar?
+
+                    stringCont = `<span>&#x1F449; ${String(cont).padStart(3, '0')}</span>`
+                } else {
+
+                    stringCont = `${stringCont} <span>&#x1F449; ${String(cont).padStart(3, '0')}</span>`
+                }
+
+
+                res.innerHTML = `<p>${stringCont}</p><br>`
+                cont ++
+
+          }
+
+      } else if ( numCo > numFi ) { // Contagem decrescente!
+          
+          cont = numCo
+
+          while ( cont >= numFi ) {
+
+
+                if ( cont == numCo ) { // Acabou de Começar?
+
+
+                    stringCont = `<span>&#x1F449; ${String(cont).padStart(3, '0')}</span>`
+                } else {
+
+
+                    stringCont = `${stringCont} <span>&#x1F449; ${String(cont).padStart(3, '0')}</span>`
+                }
+
+
+                res.innerHTML = `<p>${stringCont}</p>`
+                cont --
+
+          }
+
+      } else {
+        res.innerHTML += `<h3>Não é possível contar, pois os números são iguais</h3>`
+      }
+
+
+    }
+  </script>
+
+
+
+</body>
+</html>

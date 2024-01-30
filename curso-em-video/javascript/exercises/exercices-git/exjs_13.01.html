@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Maior Valor</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Maior Valor</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <button class="medium button" onclick="calcular()">Clique para Começar</button>
+
+        <section id="res"><h3>O resultado vai aparecer aqui...</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex013" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="exjs_12.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 13</p>
+        <a href="exjs_14.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+  <script>
+    
+    function calcular() {
+      num01 = Number(window.prompt("Digite um número."))
+      num02 = Number(window.prompt("Digite outro número."))
+
+      res = document.querySelector("section#res")
+      if ( num01 > num02 ) {
+          
+          res.innerHTML = `Analisando os valores <strong>${num01}</strong> e <strong>${num02}</strong>, o maior valor é <strong>${num01}</strong>`
+      } else if ( num02 > num01 ) {
+          
+          res.innerHTML = `Analisando os valores <strong>${num01}</strong> e <strong>${num02}</strong>}, o maior valor é <strong>${num02}</strong>`
+      } else {
+          
+          res.innerHTML = `Analisando os valores <strong>${num01}</strong> e <strong>${num02}</strong>, os dois valores são <strong>iguais</strong>.`
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>

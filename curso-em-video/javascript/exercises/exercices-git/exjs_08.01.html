@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Números com JS</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Vários Cálculos em JS</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <button class="medium button" onclick="calcular()">Clique para Calcular</button>
+
+        <section id="res"><h3>O resultado vai aparecer aqui...</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex008" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="youtube icon"></a>
+      </div>
+      <div>
+        <a href="exjs_07.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 08</p>
+        <a href="exjs_09.01.html"><img src="../../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+  <script>
+    function calcular() {
+        let num = Number(window.prompt("Digite um número."))
+        if ( num == "" || num == NaN ) {
+          window.alert("O número é inválido.\nO valor de número passa a ser 8.")
+          num = 8
+
+        }
+
+
+
+        let res = document.querySelector('section#res')
+            res.innerHTML = `<h3>O número a ser analisado aqui será o <strong>${num}</strong></h3><br>`
+            res.innerHTML += `<p>O seu valor absoluto é <strong>${Math.abs(num)}</strong></p>`
+            res.innerHTML += `<p>A sua parte inteira é <strong>${Math.trunc(num)}</strong></p>`
+            res.innerHTML += `<p>O valor inteiro mais próximo é <strong>${Math.round(num)}</strong></p>`
+            res.innerHTML += `<p>A sua raiz quadrada é <strong>${Math.sqrt(num)}</strong></p>` 
+            res.innerHTML += `<p>A sua raiz cúbica é <strong>${Math.cbrt(num)}</strong></p>`        
+            res.innerHTML += `<p>O valor de <strong>${num}<sup>2</sup></strong> é <strong>${Math.pow(num, 2)}</strong></p>`
+            res.innerHTML += `<p>O valor de <strong>${num}<sup>3</sup></strong> é <strong>${Math.pow(num, 3)}</strong></p>`
+    }
+  </script>
+
+
+
+</body>
+</html>

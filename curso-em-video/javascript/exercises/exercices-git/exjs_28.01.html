@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fatorial</title>
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../../pag-exercise.html"><img src="../../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Cálculo de Fatorial</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div id="git-desf">
+        <p id="git-desf">Escreva um número (entre 1 e 21) na caixa a seguir e te mostrarei o fatorial dele.</p>
+
+        <div class="inputs-container">
+          <div>
+            <label class="medium label" for="inum">Número: </label>
+            <input class="medium input" type="number" name="num" id="inum" placeholder="Número">
+          </div>
+          <button class="medium button" style="display: block;" onclick="fatorial()">Fatorial</button>
+        </div>
+
+        <section id="res"><h3>Preencha os dados acima e aperte o botão.</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/exercicios/ex028" target="_blank"><img src="../../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div id="op-navbar-fin">
+        <a href="exjs_27.01.html"><img src="../../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>EX 28</p>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+    function fatorial() {
+
+
+        res = document.querySelector("section#res")
+        num = Number(document.getElementById('inum').value)
+
+        res.innerHTML = `<h3>Calculando ${num}</h3><br>`
+        let c = num
+        let fat = 1
+        while (c >= 1) {
+
+          if (c == num) {
+            cText = `<span>${String(c).padStart(2, '0')} x </span>`
+          } else {
+            cText = `${cText} <span>${String(c).padStart(2, '0')} x </span>`
+          }
+            fat *= c
+            c --
+        }
+        res.innerHTML += `<p>${cText}<span> =</span></p><br>`
+        res.innerHTML += `<p><strong>${fat.toLocaleString('pt-BR')}</strong></p>`
+    }
+    
+  </script>
+
+
+
+</body>
+</html>

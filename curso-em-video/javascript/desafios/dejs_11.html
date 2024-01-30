@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Ano Bissexto</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div>
+        <div style=" margin:1.9em 0em; display:flex; align-items:center; gap:1em; ">
+          <input id="ver" class="medium button" type="button" value="Verificar">
+          <p style=" font-size: 1.2em; white-space:nowrap; ">Informe um ano <wbr>para saber se <wbr>ele é bissexto.</p>
+        </div>
+
+        <section id="res"><h3>Clique no botão acima para iniciar</h3></section>
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d011" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_10.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 11</p>
+        <a href="dejs_12.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+    agora = new Date()
+    anoAtu = agora.getFullYear()
+
+    ver = document.querySelector("input#ver")
+    ver.addEventListener("click", verificar)
+
+    function verificar() {
+
+      anoVer = prompt("Qual é o ano que você deseja verificar?")
+      if (anoVer == "" || anoVer == 0) {
+        alert("Ano escolhido inválido.\nAno passa a ser 2003")
+        anoVer = 2003
+      }
+
+      res = document.querySelector("section#res")
+      res.innerHTML = `<h3>Analisando o ano escolhido e o atual.<br><br></h3>`
+
+
+      anoAtuStyled = `<span>${anoAtu}</span>`
+      anoVerStyled = `<span>${anoVer}</span>`
+
+
+      if (anoAtu % 4 == 0 && anoAtu % 100 != 0) {
+          res.innerHTML += `<p id="bis">O ano atual, ${anoAtuStyled}, <span>É UM ANO BISSEXTO</span>!</p>`
+      } else { res.innerHTML += `<p id="no-bis">O ano atual, ${anoAtuStyled}, <span>NÃO É UM ANO BISSEXTO</span>!</p>`
+      }
+
+
+      if (anoVer % 4 == 0 && anoVer % 100 != 0) {
+          res.innerHTML += `<p id="bis">E o ano escolhido, ${anoVerStyled}, <span>É UM ANO BISSEXTO</span>!</p>`
+      } else { res.innerHTML += `<p id="no-bis">E o ano escolhido, ${anoVerStyled}, <span>NÃO É UM ANO BISSEXTO</span>!</p>`
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>

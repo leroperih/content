@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Boas Vindas</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div style="display: flex; justify-content: center;">
+        
+          <input id="start" class="medium unico button" type="button" value="Iniciar Desafio">
+
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d002" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_01.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 02</p>
+        <a href="dejs_03.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+
+      star = document.querySelector("input#start")
+      star.addEventListener("click", clicar)
+
+
+      function clicar() {
+          nome = String(prompt("Oi, qual é o seu nome?"))
+          if ( nome == "" ) { nome = "Nada" }
+
+          idade = Number(prompt(`Olá, ${nome} Cabeça de Jumento Cunha! Quantos anos você tem?`))
+          if ( idade <= 0 ) { idade = "trintei vinte" }
+
+
+
+          window.alert(`Acabei de te conhecer ${nome} Cabeça de Pica, que tem ${idade} anos de idade. Que bom <3!`)
+      }
+
+
+  </script>
+
+
+
+</body>
+</html>

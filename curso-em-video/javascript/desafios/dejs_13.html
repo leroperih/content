@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Situação do Aluno</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div>
+
+        <input id="ver" class="medium button" type="button" value="Entrar com as Notas">
+        <section id="res"><h3>Clique no botão acima para iniciar</h3></section>
+
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d013" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div id="op-navbar-fin">
+        <a href="dejs_12.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 13</p>
+      </div>
+  </footer>
+
+
+
+  <script>
+    ver = document.querySelector("input#ver")
+    ver.addEventListener("click", verificar)
+
+
+    function verificar() {
+      
+      aluNom = prompt("Qual é o nome do(a) aluno(a)?")
+      if (aluNom == "") {
+        alert("O nome do(a) aluno(a) não é válido.\nO nome do(a) aluno(a) passa a ser Flavinho.")
+        aluNom = "Flavinho"
+      }
+
+      do {
+      aluNot1 = Number(prompt(`Qual foi a primeira nota tirada pelo(a) aluno(a) ${aluNom}?\nA nota deve ser um número entre 0 e 10!`))
+      } while (aluNot1 <= 0 || aluNot1 >= 10)
+
+      do {
+      aluNot2 = Number(prompt(`Qual foi a segunda nota tirada pelo(a) aluno(a) ${aluNom}?\nA nota deve ser um número entre 0 e 10!`))
+      } while (aluNot2 <= 0 || aluNot2 >= 10)
+
+      aluMedia = (aluNot1 + aluNot2)/2
+
+      res = document.querySelector("section#res")
+      res.innerHTML = `<h3>Analisando a situação de ${aluNom}</h3><br>`
+      res.innerHTML += `<p>Com as notas ${aluNot1} e ${aluNot2}, a média é ${aluMedia}<p>`
+      if (aluMedia <= 3) {
+          res.innerHTML += `<p>Com média abaixo de 3, o aluno está <span style="color: red">reprovado</span></p>`
+      } else if (aluMedia > 3 && aluMedia < 6) {
+          res.innerHTML += `<p>Com média entre 3 e 6, o aluno está em <span style="color: orange">recuperação</span></p>`
+      } else {
+          res.innerHTML += `<p>Com média acima de 6, o aluno está <span style="color: green">aprovado</span></p>`
+
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>

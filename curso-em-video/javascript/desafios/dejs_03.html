@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../../conteudo/akko.ico" type="image/x-icon">
+  <title>Fazendo Desafios</title>
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-all.css" media="all">
+  <link rel="stylesheet" href="../../../conteudo/style/style-js-desktop.css" media="screen and (min-width: 600px)">
+</head>
+<body class="scroll">
+
+
+
+  <header>
+      <div>
+        <div id="container-back">
+            <a href="../pag-exercise.html"><img src="../../../conteudo/back-button-icon.png" alt=""></a>
+        </div>
+
+        <h1>Antes e Depois</h1>
+      </div>
+  </header>
+
+
+
+  <main>
+
+      <div style="display: flex; justify-content: center;">
+
+        <input type="button" id="start" value="Antecessor e Sucessor" class="medium unico button">
+
+      </div>
+
+  </main>
+
+
+
+  <footer>
+      <div>
+        <a href="https://github.com/gustavoguanabara/javascript/tree/master/desafios/d003" target="_blank"><img src="../../../conteudo/icon_link-github.png" alt="github icon"></a>
+      </div>
+      <div>
+        <a href="dejs_02.html"><img src="../../../conteudo/back-button-icon.png" alt="exercício anterior"></a>
+        <p>DES 03</p>
+        <a href="dejs_04.html"><img src="../../../conteudo/next-button-icon.png" alt="próximo exercício"></a>
+      </div>
+  </footer>
+
+
+
+  <script>
+
+      s = document.querySelector("input#start")
+      s.addEventListener("click", clicar)
+
+
+      function clicar() {
+          n = prompt("Digite um número inteiro qualquer")
+          nan = n
+          n = Number(n)
+          an = n - 1
+          su = n + 1
+          if ( isNaN(n) ) {
+
+            alert(`Holve um erro, ' ${nan} ' não é um número`)
+          } else {
+
+            alert(`Antes de ${n}, temos o número ${an}.\nDepois de ${n}, temos o número ${su}.`)
+          }
+      }
+
+  </script>
+
+
+
+</body>
+</html>

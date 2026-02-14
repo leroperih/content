@@ -2,7 +2,7 @@
 
 
 main > div:nth-of-type(2) {
-  background: url("../conteudo/wallpaper001.jpg") center center repeat fixed;
+  background: url("../content/wallpaper001.jpg") center center repeat fixed;
   background-size: cover;
 } div.quadrado {
   margin: 0em 1em;
@@ -19,7 +19,7 @@ main > div:nth-of-type(2) {
 } div#q2 {
   background-image: linear-gradient(180deg, #ffff00, #ff0000);
 } div#q3 {
-  background-image: url("../conteudo/pattern001.png");
+  background-image: url("../content/pattern001.png");
 } main > div:nth-of-type(2) > div > p {
   color: #aa6ba3;
   font-weight: bold;

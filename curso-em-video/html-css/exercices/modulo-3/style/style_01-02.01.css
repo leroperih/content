@@ -3,6 +3,6 @@
 
 main > div:nth-of-type(2) {
   min-height: 55vh;
-  background: #0000002e url("../conteudo/wallpaper006.jpg") center center repeat-x;
+  background: #0000002e url("../content/wallpaper006.jpg") center center repeat-x;
   background-size: 12.5em 12.5em;
 }

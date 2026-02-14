@@ -4,7 +4,7 @@
 
 
 body {
-  background: url("../conteudo/bg-night-desk.jpg") center center no-repeat fixed;
+  background: url("../content/bg-night-desk.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -23,11 +23,11 @@ div#de-08-amare {
 
 @media screen and (max-width: 350px) {
 
-body { background-image: url("../conteudo/bg-night-celular.jpg"); }
+body { background-image: url("../content/bg-night-celular.jpg"); }
 }
 
 
 @media screen and (max-width: 600px) {
 
-body { background-image: url("../conteudo/bg-night-celular.jpg"); }
+body { background-image: url("../content/bg-night-celular.jpg"); }
 }

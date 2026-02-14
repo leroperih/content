@@ -7,15 +7,15 @@ main > div:nth-of-type(2) div {
   background-color: lightgray;
   border: 1px solid black;
 } div#area001 {
-  background-image: url('../conteudo/pattern001.png');
+  background-image: url('../content/pattern001.png');
   background-repeat: repeat;
 } div#area002 {
-  background-image: url('../conteudo/pattern002.png');
+  background-image: url('../content/pattern002.png');
   background-repeat: repeat-x;
 } div#area003 {
-  background-image: url('../conteudo/pattern003.png');
+  background-image: url('../content/pattern003.png');
   background-repeat: repeat-y;
 } div#area004 {
-  background-image: url('../conteudo/pattern004.png');
+  background-image: url('../content/pattern004.png');
   background-repeat: no-repeat;
 }

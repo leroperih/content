@@ -3,7 +3,7 @@
 
 main > div:nth-of-type(2) p {
   border: 0.5em solid transparent;
-  border-image-source: url("../conteudo/diamonds.png");
+  border-image-source: url("../content/diamonds.png");
   border-image-repeat: repeat;  /* REPEAT ou STRETCH */
   border-image-slice: 390;
   text-align: center;

@@ -8,7 +8,7 @@
 
     main > div:nth-of-type(2) {
     
-      /* background: url("../conteudo/back-print.jpg");  desnecessário */
+      /* background: url("../content/back-print.jpg");  desnecessário */
       font-family: 'Courier New', Courier, monospace;
     }
     
@@ -25,7 +25,7 @@
 
 main > div:nth-of-type(2) {
 
-  background: url("../conteudo/back-tablet.jpg");
+  background: url("../content/back-tablet.jpg");
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ img#tel, img#imp, img#pc, img#tv {
 
 main > div:nth-of-type(2) {
 
-  background: url("../conteudo/back-pc.jpg");
+  background: url("../content/back-pc.jpg");
   background-size: cover;
 }
 
@@ -57,7 +57,7 @@ img#tel, img#imp, img#tbl, img#tv {
 
 main > div:nth-of-type(2) {
 
-  background: url("../conteudo/back-tv.jpg");
+  background: url("../content/back-tv.jpg");
   background-size: cover;
 }
 

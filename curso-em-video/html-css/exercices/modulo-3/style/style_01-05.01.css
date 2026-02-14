@@ -2,7 +2,7 @@
 
 
 main > div:nth-of-type(2) {
-  background: #ffffff url("../conteudo/wallpaper005.jpg") center top repeat-x;
+  background: #ffffff url("../content/wallpaper005.jpg") center top repeat-x;
   background-size: 50vw;
   min-height: 32vh;
 }

@@ -63,11 +63,11 @@ section.imagem > p {
   display: inline-block;
 }
 #img01 {
-  background: #000000 url("../conteudo/background001.jpg") right center no-repeat fixed;
+  background: #000000 url("../content/background001.jpg") right center no-repeat fixed;
   background-size: cover;
 }
 #img02 {
-  background: #000000 url("../conteudo/background002.jpg") right center no-repeat fixed;
+  background: #000000 url("../content/background002.jpg") right center no-repeat fixed;
   background-size: cover;
 }
 

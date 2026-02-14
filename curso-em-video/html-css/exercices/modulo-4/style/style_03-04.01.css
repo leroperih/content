@@ -8,7 +8,7 @@ html {
 }
 main > div:nth-of-type(2) {
 
-  background: #050505 url(../conteudo/back-phone.jpg) center center no-repeat;
+  background: #050505 url(../content/back-phone.jpg) center center no-repeat;
   background-size: cover;
 }
 

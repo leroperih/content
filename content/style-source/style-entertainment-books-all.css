@@ -408,7 +408,6 @@
         box-shadow: inset 0em 0em 2em var(--color-darkest-black-02);
         border-radius: 0.75em;
         padding: 0em;
-        overflow: hidden;
     }
 
     .container-study > p
@@ -450,6 +449,13 @@
     div#search-menu-section > div#search-menu-text
     {
         background-color: var(--color-dark-grey-02);
+    }
+    div#search-menu-section > div
+    {
+        position: sticky;
+        top: 5em;
+
+
     }
 
     div.book-section 

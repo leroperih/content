@@ -78,13 +78,13 @@
         border-radius: 0.75em;
     }
 
-    main.menu-and-content > div#personal-projects-menu
+    main.menu-and-content > div#search-menu-section
     {
         margin: 2em;
         width: 24em;
     }
 
-    main.menu-and-content > div#personal-projects-area
+    main.menu-and-content > div#content-list-section
     {
         width: 80%;
     }

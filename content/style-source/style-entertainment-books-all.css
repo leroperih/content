@@ -35,8 +35,8 @@
     --color-dark-grey-01: #2f2f2f;
     --color-dark-grey-02: #2f2f2f80;
 
-    --study-color-02: #00ffee80;
     --study-color-01: #00ffee;
+    --study-color-02: #00ffee80;
     --study-color-03: #00ffee22;
 
 
@@ -442,12 +442,12 @@
         color: var(--color-lighter-white-02);
     }
 
-    div#personal-projects-area > * , div#personal-projects-menu > *
+    div#content-list-section > * , div#search-menu-section > *
     {
-        margin: 2em auto;
+        margin: 1.5em auto;
     }
 
-    div#personal-projects-menu > div#personal-menu
+    div#search-menu-section > div#search-menu-text
     {
         background-color: var(--color-dark-grey-02);
     }
@@ -466,6 +466,38 @@
         box-shadow: 0em 0em 3em var(--color-darkest-black-01);
     }
 
+    fieldset.language
+    {
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-right: 0.5em;
+    }
+
+    fieldset.genre
+    {
+        display: grid;
+        grid-template-columns: repeat( 2 , 1fr );
+        grid-template-rows: auto;
+        padding: 1em;
+    }
+    fieldset.genre > div
+    {
+        background-color: var(--color-dark-grey-02);
+        padding: 0.25em;
+    }
+
+
+    fieldset > legend
+    {
+        padding: 0em .8em;
+    }
+
+    fieldset > *
+    {
+        margin: 0.5em;
+    }
 
 
 

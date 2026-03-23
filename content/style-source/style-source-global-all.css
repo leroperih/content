@@ -1,0 +1,226 @@
+
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+:root
+{
+
+
+
+
+
+
+    --size-icons: 3em;
+
+    --transition-time-01: 0.15s;
+
+
+
+
+
+
+
+    --hover-color-01: #ffffff44;
+    --hover-color-02: #ffffff22;
+    --hover-color-03: #ffffff08;
+    --default-color-grey-01: #606060;
+    --default-color-grey-02: #60606060;
+    --default-color-red-01: #f00000;
+    --default-color-red-02: #f0000088;
+
+    --color-darkest-black-01: #000000;
+    --color-darkest-black-02: #000000f0;
+    --color-darkest-black-03: #000000c0;
+    --color-darkest-black-04: #00000080;
+    --color-dark-black-01: #050505;
+    --color-dark-black-02: #05050580;
+    --color-dark-black-05: #05050528;
+    --color-medium-black-01: #161616;
+    --color-medium-black-02: #16161680;
+    --color-medium-black-03: #16161660;
+    --color-light-black-01: #222222;
+    --color-light-black-02: #22222288;
+    --color-light-black-03: #22222244;
+    --color-darkest-grey-01: #282828;
+    --color-dark-grey-01: #2f2f2f;
+    --color-dark-grey-02: #2f2f2f80;
+    --color-medium-grey-01: #484848;
+    --color-medium-grey-02: #48484880;
+    --color-medium-grey-03: #48484844;
+    --color-light-grey-01: #b0b0b0;
+    --color-light-grey-02: #b0b0b080;
+    --color-light-white-01: #f0f0f0;
+    --color-light-white-02: #f0f0f0a0;
+    --color-lighter-white-01: #ffffff;
+    --color-lighter-white-02: #ffffffd0;
+    --color-lighter-white-03: #ffffffb0;
+
+
+    --color-study-school-01: #ff8800;
+    --color-study-school-02: #ff8800b0;
+    --color-study-python-01: #ffcc00;
+    --color-study-python-02: #ffcc00b0;
+    --color-study-design-01: #8800bb;
+    --color-study-design-02: #8800bbb0;
+    --color-study-html-01: #4444ff;
+    --color-study-html-02: #4444ffb0;
+    --color-study-cyber-01: #ff7f50;
+    --color-study-cyber-02: #ff7f50b0;
+    --color-study-css-01: #ff00ff;
+    --color-study-css-02: #ff00ffb0;
+    --color-study-cpp-01: #00ffee;
+    --color-study-cpp-02: #00ffeeb0;
+    --color-study-art-01: #ff4400;
+    --color-study-art-02: #ff4400b0;
+    --color-study-cps-01: #ff5500;
+    --color-study-cps-02: #ff5500b0;
+    --color-study-js-01: #ffee40;
+    --color-study-js-02: #ffee40b0;
+    --color-study-math-01: #00ff80;
+    --color-study-math-02: #00ff80b0;
+
+
+
+
+
+
+
+    --lateral-dark-gradient-effect-01:
+        linear-gradient(
+        90deg ,
+        #000000e0 ,
+        transparent ,
+        #000000e0
+        );
+
+    --bg-main-gradient-effect-01:
+        linear-gradient(
+        180deg,
+        #0a0a0e 0em ,
+        #0a0a0e 3em ,
+        #070707 30vh ,
+        #060606 35vh ,
+        #050505 50vh
+        );
+
+    --bg-main-gradient-effect-02:
+        linear-gradient(
+        180deg,
+        #0a0a0d 0em ,
+        #070707 20vh ,
+        #060606 40vh ,
+        #050505 60vh
+        );
+
+
+    --container-study-elements-gradient-effect-01:
+        linear-gradient(
+        160deg ,
+        #000000 00%,
+        #000000dd 20%,
+        #000000bb 40%,
+        #00000088 60%,
+        #00000044 80%,
+        transparent
+        );
+
+
+    --container-study-elements-gradient-effect-02:
+        linear-gradient(
+        130deg ,
+        #000000ee 00%,
+        #000000aa 20%,
+        #00000088 40%,
+        #00000066 60%,
+        #00000044 80%,
+        transparent
+        );
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* DEAULT GENERAL STYLE ______________________________________________________________________________________________________ */
+
+
+    /* CSS Padrão Geral */
+    *
+    {
+        padding: 0em; margin: 0em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+    body, html
+    {
+        margin: auto;
+        overflow-x: hidden;
+        background-color: var(--color-dark-black-01);
+    }
+
+    body *
+    {
+        color: var(--color-lighter-white-03);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+    }
+
+
+
+
+
+
+
+
+/* DEFAULT SCROLL ____________________________________________________________________________________________________________ */
+
+
+    /* Scroll Space */
+    .scroll::-webkit-scrollbar
+    {
+        background-color: var(--color-darkest-black-01); width: 0.5em;
+    }
+
+        /* Fundo Scroll */
+    .scroll::-webkit-scrollbar-track
+    {
+        border-radius: 0.25em; border: 2px solid var(--color-darkest-black-01);
+        margin: 0.25em 0em;
+    }
+
+    .scroll::-webkit-scrollbar-track:hover
+    {
+        background: var(--color-medium-black-01);
+    }
+
+        /* Mover Scroll */
+    .scroll::-webkit-scrollbar-thumb
+    {
+        border: 1px solid var(--color-darkest-black-01); border-radius: 0.25em;
+        background-color: var(--color-medium-black-01);
+    }
+
+    .scroll::-webkit-scrollbar-thumb:hover
+    {
+        background: var(--color-dark-grey-01);
+    }
+
+
+
+

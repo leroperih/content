@@ -9,3 +9,57 @@
 
 
 
+div.container-study-elements { /* Section Study */
+    max-width: var( --size-max-wdith-content );
+    gap: 0.8em;
+    border: none;
+    box-shadow: none;
+    flex-direction: column-reverse;
+}
+
+div.study > div.container-study-elements > div {
+    border-radius: 1em;
+    border-left: 1.5px solid var(--color-medium-black-02);
+    border-right: 1.5px solid var(--color-medium-black-02);
+}
+
+div.container-study-elements > div:nth-of-type(2) > div:nth-of-type(2) {
+    background-image: var(--container-study-elements-gradient-effect-02);
+}
+
+div.container-study-elements > div:nth-of-type(2) {
+    height: 14em;
+}
+
+
+
+div.container-study-elements div:nth-of-type(1) a {
+    display: block;
+}
+
+div.container-study-elements div:nth-of-type(2) a {
+    display: none;
+}
+
+
+
+
+
+div.study.two {
+    flex-direction: row;
+    gap: 0.8em;
+}
+
+    div.study.two > div {
+        background-color: var(--color-darkest-black-02);
+        gap: 0em;
+    }
+
+        div.study.two > div > div {
+            border-radius: 0em;
+        }
+
+            div.study.two > div > div:nth-of-type(2) {
+                border-bottom: 1px solid var(--color-dark-grey-01);
+                height: 10em;
+            }

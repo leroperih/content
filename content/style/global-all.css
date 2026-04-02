@@ -862,14 +862,16 @@ div.m-info {
 
 /* Footer _____________________________________________________________________________________________________________________*/
 
-footer {
-    min-height: 8em;
-    padding: 1em;
-    background-color: var(--color-medium-black-02);
-    z-index: 50;
-}
+    footer
+    {
+        min-height: 8em;
+        padding: 1em;
+        background-color: var(--color-dark-black-01);
+        z-index: 1000;
+    }
 
-    footer * {
+    footer *
+    {
         color: var(--color-lighter-white-02);
         font-family: var(--font-notes);
     }

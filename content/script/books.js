@@ -51,22 +51,25 @@
 
 
 
-
-
-    const language_br = document.getElementById('language1');
-    const language_de = document.getElementById('language2');
-    const language_en = document.getElementById('language3');
-
-
-    function toggleLanguage()
+    function toggleLanguage(langName, checkbox)
     {
-        const targets = document.getElementsByClassName(this.name);
-        const displayStyle = this.checked ? 'block' : 'none';
+        const targets = document.getElementsByClassName(langName);
+        const displayStyle = checkbox.checked ? 'block' : 'none';
 
-        for (let target of targets)
-        { target.style.display = displayStyle; }
+        for (let target of targets) {
+            target.style.display = displayStyle;
+        }
     }
 
-    language_br.addEventListener('change', toggleLanguage());
-    language_de.addEventListener('change', toggleLanguage());
-    language_en.addEventListener('change', toggleLanguage());
+    // Wrap in an anonymous function to pass arguments
+    language_br.addEventListener('change', function () {
+        toggleLanguage("portugues", this);
+    });
+
+    language_de.addEventListener('change', function () {
+        toggleLanguage("deutsch", this);
+    });
+
+    language_en.addEventListener('change', function () {
+        toggleLanguage("english", this);
+    });

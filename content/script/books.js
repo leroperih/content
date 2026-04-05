@@ -51,6 +51,11 @@
 
 
 
+
+    const language_br = document.getElementById('language1');
+    const language_de = document.getElementById('language2');
+    const language_en = document.getElementById('language3');
+
     function toggleLanguage(langName, checkbox)
     {
         const targets = document.getElementsByClassName(langName);

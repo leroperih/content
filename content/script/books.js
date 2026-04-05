@@ -41,3 +41,32 @@
     }
 
     loadBooks();
+
+
+
+
+
+
+
+
+
+
+
+
+    const language_br = document.getElementById('language1');
+    const language_de = document.getElementById('language2');
+    const language_en = document.getElementById('language3');
+
+
+    function toggleLanguage()
+    {
+        const targets = document.getElementsByClassName(this.name);
+        const displayStyle = this.checked ? 'block' : 'none';
+
+        for (let target of targets)
+        { target.style.display = displayStyle; }
+    }
+
+    language_br.addEventListener('change', toggleLanguage());
+    language_de.addEventListener('change', toggleLanguage());
+    language_en.addEventListener('change', toggleLanguage());

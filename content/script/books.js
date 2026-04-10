@@ -6,7 +6,7 @@
     {
         try
         {
-            const response = await fetch("../content/script/books.json");
+            const response = await fetch("content/script/books.json");
             if (!response.ok) throw new Error("The JSON file was not found!");
 
             const dados = await response.json();

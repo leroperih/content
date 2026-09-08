@@ -160,12 +160,12 @@ section#apres {
         border-radius: 0.75em;
     }
 
-main.menu-and-content > div#personal-projects-menu {
+main.menu-and-content > div.two-sides-structure-menu {
     margin: 2em;
     width: 24em;
 }
 
-main.menu-and-content > div#personal-projects-area {
+main.menu-and-content > div.two-sides-structure-content {
     width: 80%;
 }
 

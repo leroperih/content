@@ -86,6 +86,7 @@
 
     --color-study-cyber-01: #ff7f50;
     --color-study-cyber-02: #ff7f50b0;
+    --color-study-cyber-03: #5d2c1a;
 
     --color-study-css-01: #ff00ff;
     --color-study-css-02: #ff00ffb0;
@@ -437,10 +438,9 @@
 
     div.study.two
     {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
     
     div.study.two > *
@@ -550,6 +550,7 @@ header {
 
 div.icon {
     box-sizing: border-box;
+    width: var(--size-icons);
     height: var(--size-icons);
     border-radius: 50%;
 }
@@ -778,24 +779,47 @@ div.container-content td, div.container-content th {
     text-align: center;
 }
 
-div.code * {
-    text-wrap: balance;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 4em;
-    max-width: 80%;
-    display: block;
-    font-family: 'Courier New', Courier, monospace, Times, monospace;
-    color: var(--color-lighter-white-02);
-}
+    div.code * {
+        text-wrap: balance;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 4em;
+        max-width: 80%;
+        display: block;
+        font-family: 'Courier New', Courier, monospace, Times, monospace;
+        color: var(--color-lighter-white-02);
+    }
 
-div#personal-projects-area > *, div#personal-projects-menu > * {
-    margin: 2em auto;
-}
+    div.two-sides-structure-content > *,
+    div.two-sides-structure-menu > *
+    {
+        position: relative;
+        margin: 2em auto;
+    }
 
-div#personal-projects-menu > div#personal-menu {
-    background-color: var(--color-dark-grey-02);
-}
+    div.two-sides-structure-menu > div
+    {
+        position: sticky;
+        top: 1em;
+        left: 0em;
+    }
+
+    div.two-sides-structure-menu > div > *
+    {
+        margin: 2em 0em;
+
+    }
+
+    div#personal-menu
+    {
+        background-color: var(--color-dark-grey-02);
+    }
+
+    fieldset
+    {
+        border-width: 1px;
+        border-color: dimgrey;
+    }
 
 
 

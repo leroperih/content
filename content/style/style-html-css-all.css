@@ -323,43 +323,9 @@ table > tbody > tr > td:nth-of-type(3) {  /* Mais Informações */
 
 
 
-.container-study {  /* Formatações padrão */
-  background-color: var(--color-medium-black-02);
-  box-shadow: inset 0em 0em 2em var(--color-darkest-black-02);
-  border-radius: 0.75em;
-  padding: 0em;
-  overflow: hidden;
-} h2.study {
-  background-color: var(--study-color-03);
-  padding: 0.25em 0.5em;
-  font-family: var(--font-apple);
-  font-weight: normal;
-} div.container-content td
-, div.container-content th {
-  padding: 0.5em 0.25em;
-  text-align: center;
-}
 
 
 
-div.code > code {
-  text-align: center;
-  margin: auto;
-  max-width: 80%;
-  display: block;
-  font-family: 'Courier New', Courier, monospace, Times, monospace;
-  color: var(--color-lighter-white-02);
-}
-
-
-
-
-
-
-footer {  /* Footer -------------------------------------------------------------------------------------------------------------------- */
-  min-height: 8em;
-  background-color: var(--color-medium-black-02);
-}
 
 
 
@@ -367,15 +333,12 @@ footer {  /* Footer ------------------------------------------------------------
 
 
 div#cont-modulos {
-  border: 0.05em solid var(--color-dark-grey-02);
-  border-radius: 0.5em;
   max-width: 42em;
   font-size: 1.5em;
   padding: 1.5em;
   display: grid;
   grid-template-columns: repeat( auto-fit , minmax( 12em , 1fr ) );
   gap: 1em;
-  background-color: var(--color-darkest-black-01);
 } div#cont-modulos > div:nth-of-type(5) {
   grid-column: span 2;
 } div#cont-modulos * {
@@ -395,17 +358,17 @@ div#cont-modulos {
 } div#cont-modulos a span {
   padding-top: 0.25em;
   font-size: 0.6em;
+} div#cont-modulos div {
 } nav.links-wrape {
-  border-radius: 0.2em;
+  border: 1px solid var(--color-light-grey-02) ;
+  border-radius: 0.5em;
   box-shadow: inset 0em 0em 1.5em var(--color-medium-black-02);
+  overflow: hidden;
   overflow-y: scroll;
   height: 14em;
 } nav.links-wrape::-webkit-scrollbar-track {
   margin: 0em;
 } nav.links-wrape > ul > li {
-  border: 1px solid var(--color-dark-grey-02);
-  transition-duration: 0.15s;
-  background-color: var(--color-medium-black-02);
   padding: 0.25em 0.75em;
   margin: 0.5em 0.25em;
 } nav.links-wrape > ul > li:hover {

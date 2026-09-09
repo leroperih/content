@@ -204,6 +204,11 @@
         list-style: none;
     }
 
+    a:hover
+    {
+        color: var( --color-lighter-white-01 );
+    }
+
 
 
 

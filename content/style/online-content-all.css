@@ -418,6 +418,16 @@
     }
 
 
+    nav.normal-list *
+    {
+        list-style: circle;
+    }
+    nav.normal-list li
+    {
+        margin-left: 1.5em;
+    }
+
+
 
 
 

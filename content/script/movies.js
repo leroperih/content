@@ -19,16 +19,16 @@
             // const which-section-title = `section-title-${which_language}`;
 
             // Função que gera o HTML
-            const createMoviesHTML = (movies_de) => `
-                <div class="movies-list ${movies_de.genre-class}">
+            const createMoviesHTML = (movies) => `
+                <div class="movies-list ${movies['genre-class']}">
 
                     <div>
-                        <img src="${movies_de.img-link}" alt="${movies_de.img-desc}">
+                        <img src="${movies['img-link']}" alt="${movies['img-desc']}">
                     </div>
 
                     <div>
-                        <h2>${movies_de.title}</h2>
-                        <p>GENRE: ${movies_de.genre-text}</p>
+                        <h2>${movies['title']}</h2>
+                        <p>GENRE: ${movies['genre-text']}</p>
                     </div>
 
                 </div>`;

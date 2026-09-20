@@ -38,7 +38,7 @@
             let completeHTML = "";
 
             dados[`movies-${which_language}`].forEach( movie => {
-                completeHTML = createMoviesHTML(movie);
+                completeHTML += createMoviesHTML(movie);
             });
 
             movies_list_area.innerHTML += completeHTML;

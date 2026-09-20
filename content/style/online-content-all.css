@@ -418,6 +418,9 @@
     }
 
 
+
+
+
     nav.normal-list *
     {
         list-style: circle;
@@ -426,6 +429,31 @@
     {
         margin-left: 1.5em;
     }
+
+
+
+
+
+    div.movies-list
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 3em 0em 3em 2em;
+        gap: 1em;
+    }
+
+    div.movies-list > div:nth-of-type(2)
+    {
+        border-left: 1px solid var(--color-dark-grey-01);
+        padding-left: 1em;
+        margin: 2em 0em;
+    }
+
+    div.movies-list img
+    {
+        height: 14em;
+    } 
+
 
 
 

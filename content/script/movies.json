@@ -1,0 +1,42 @@
+{
+  "section-title-de": "Filme zum Ansehen",
+  "section-title-pt": "Filmes Para Assitir",
+  "section-title-en": "Movies to Watch",
+
+  "movies-de": [ // DEUTSCHLAND
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "A capa do filme: A Bruxa de 2015",
+      "title": "A Bruxa (2015)",
+      "genre-text": "terror, suspense",
+      "genre-class": "horror suspense"
+    }
+
+  ],
+
+  "movies-pt": [ // BRASIL
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "A capa do filme: A Bruxa de 2015",
+      "title": "A Bruxa (2015)",
+      "genre-text": "terror, suspense",
+      "genre-class": "horror suspense"
+    }
+
+  ],
+
+  "movies-en": [ // UNITED STATES
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "The movie cover: The Witch from 2015",
+      "title": "The Witch (2015)",
+      "genre-text": "horror, suspense",
+      "genre-class": "horror suspense"
+    }
+
+  ]
+
+}

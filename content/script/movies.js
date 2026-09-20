@@ -35,9 +35,13 @@
 
             movies_list_title.innerHTML = `<h2>${dados[`section-title-${which_language}`]}</h2>`; 
 
+            let completeHTML = "";
+
             dados[`movies-${which_language}`].forEach( movie => {
-                movies_list_area.innerHTML += createMoviesHTML(movie);
+                completeHTML = createMoviesHTML(movie);
             });
+
+            movies_list_area.innerHTML += completeHTML;
 
         }
         catch (error)

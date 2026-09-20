@@ -71,12 +71,21 @@
     },
 
     {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "Das Filmplakat: Scary Movie von 2026",
+      "title": "Scary Movie (2026)",
+      "genre-text": "Horrorkomödie, Satire",
+      "genre-class": "comedy-horror satire"
+    },
+
+    {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Ring von 2002",
       "title": "Ring (2002)",
       "genre-text": "Horror",
       "genre-class": "horror"
     }
+
   ],
 
   "movies-pt": [
@@ -146,6 +155,14 @@
     },
 
     {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2026",
+      "title": "Todo Mundo em Pânico (2026)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
+
+    {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: O chamado de 2002",
       "title": "O chamado (2002)",
@@ -164,6 +181,7 @@
       "genre-text": "horror",
       "genre-class": "horror"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Sinister (2012)",
@@ -171,6 +189,7 @@
       "genre-text": "horror, thriller",
       "genre-class": "horror suspense"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Hereditary (2018)",
@@ -178,6 +197,7 @@
       "genre-text": "drama, horror",
       "genre-class": "drama horror"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie (2000)",
@@ -185,6 +205,7 @@
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 2 (2001)",
@@ -192,6 +213,7 @@
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 3 (2003)",
@@ -199,6 +221,7 @@
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 4 (2006)",
@@ -206,6 +229,7 @@
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 5 (2013)",
@@ -213,6 +237,15 @@
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "The movie poster: Scary Movie (2026)",
+      "title": "Scary Movie (2026)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: The Ring (2002)",
@@ -220,6 +253,7 @@
       "genre-text": "horror",
       "genre-class": "horror"
     }
+
   ]
 
 }

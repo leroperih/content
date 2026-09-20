@@ -8,16 +8,15 @@
         try
         {
 
-            const urlParams = new URLSearchParams(window.location.search);
-            const which_language = urlParams.get('hl');
+            // const urlParams = new URLSearchParams(window.location.search);
+            // const which_language = urlParams.get('hl');
 
             const response = await fetch("content/script/movies.json");
             if (!response.ok) throw new Error("The JSON file was not found!");
-
             const dados = await response.json();
 
-            const which_movie-lang = `movies-${which_language}`;
-            const which-section-title = `section-title-${which_language}`;
+            // const which_movie-lang = `movies-${which_language}`;
+            // const which-section-title = `section-title-${which_language}`;
 
             // Função que gera o HTML
             const createMoviesHTML = (which_movie) => `
@@ -37,7 +36,7 @@
 
             // Percorre o array de projetos do JSON
 
-            movies_list_title.innerHTML += `<h2>${dados.section-title-de}</h2>`; 
+            movies_list_title.innerHTML = `<h2>${dados.section-title-de}</h2>`; 
 
             dados.movies-de.forEach( movie => {
                 movies_list_area.innerHTML += createMoviesHTML(movie);

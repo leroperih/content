@@ -94,6 +94,14 @@
       "genre-class": "horror"
     }
 
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "Das Filmplakat: Mein großer Freund Shane von 1953",
+      "title": "Mein großer Freund Shane (1953)",
+      "genre-text": "Western, Drama",
+      "genre-class": "western drama"
+    }
+
   ],
 
   "movies-pt": [
@@ -184,6 +192,14 @@
       "title": "O chamado (2002)",
       "genre-text": "terror",
       "genre-class": "horror"
+    },
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "O pôster do filme: Os Brutos Também Amam de 1953",
+      "title": "Os Brutos Também Amam (1953)",
+      "genre-text": "faroeste, drama",
+      "genre-class": "western drama"
     }
 
   ],
@@ -276,6 +292,14 @@
       "title": "The Ring (2002)",
       "genre-text": "horror",
       "genre-class": "horror"
+    },
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "The movie poster: Shane (1953)",
+      "title": "Shane (1953)",
+      "genre-text": "western, drama",
+      "genre-class": "western drama"
     }
 
   ]

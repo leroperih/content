@@ -5,6 +5,7 @@
   "section-title-en": "Movies to Watch",
 
   "movies-de": [
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: The Witch von 2015",
@@ -12,6 +13,7 @@
       "genre-text": "Horror",
       "genre-class": "horror"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Sinister von 2012",
@@ -19,6 +21,7 @@
       "genre-text": "Horror, Thriller",
       "genre-class": "horror suspense"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Hereditary – Das Vermächtnis von 2018",
@@ -26,6 +29,7 @@
       "genre-text": "Drama, Horror",
       "genre-class": "drama horror"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Scary Movie von 2000",
@@ -33,6 +37,7 @@
       "genre-text": "Horrorkomödie, Satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Scary Movie 2 von 2001",
@@ -40,6 +45,7 @@
       "genre-text": "Horrorkomödie, Satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Scary Movie 3 von 2003",
@@ -47,6 +53,7 @@
       "genre-text": "Horrorkomödie, Satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Scary Movie 4 von 2006",
@@ -54,6 +61,7 @@
       "genre-text": "Horrorkomödie, Satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Scary Movie 5 von 2013",
@@ -61,179 +69,180 @@
       "genre-text": "Horrorkomödie, Satire",
       "genre-class": "comedy-horror satire"
     },
+
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Ring von 2002",
       "title": "Ring (2002)",
       "genre-text": "Horror",
       "genre-class": "horror"
     },
+
     {
       "img-link": "https://wikimedia.org",
       "img-desc": "Das Filmplakat: Get Out von 2017",
       "title": "Get Out (2017)",
       "genre-text": "Horror, Mystery-Thriller",
       "genre-class": "horror suspense mystery"
+    }
+  ],
+
+  "movies-pt": [
+
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: A Bruxa de 2015",
+      "title": "A Bruxa (2015)",
+      "genre-text": "terror",
+      "genre-class": "horror"
     },
 
-    "movies-pt",
-    :,
-    [
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Sinister de 2012",
+      "title": "Sinister (2012)",
+      "genre-text": "terror, suspense",
+      "genre-class": "horror suspense"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: A Bruxa de 2015",
-        "title": "A Bruxa (2015)",
-        "genre-text": "terror",
-        "genre-class": "horror"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Hereditário de 2018",
+      "title": "Hereditário (2018)",
+      "genre-text": "drama, terror",
+      "genre-class": "drama horror"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Sinister de 2012",
-        "title": "Sinister (2012)",
-        "genre-text": "terror, suspense",
-        "genre-class": "horror suspense"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2000",
+      "title": "Todo Mundo em Pânico (2000)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Hereditário de 2018",
-        "title": "Hereditário (2018)",
-        "genre-text": "drama, terror",
-        "genre-class": "drama horror"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico 2 de 2001",
+      "title": "Todo Mundo em Pânico 2 (2001)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2000",
-        "title": "Todo Mundo em Pânico (2000)",
-        "genre-text": "comédia de terror, sátira",
-        "genre-class": "comedy-horror satire"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico 3 de 2003",
+      "title": "Todo Mundo em Pânico 3 (2003)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Todo Mundo em Pânico 2 de 2001",
-        "title": "Todo Mundo em Pânico 2 (2001)",
-        "genre-text": "comédia de terror, sátira",
-        "genre-class": "comedy-horror satire"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico 4 de 2006",
+      "title": "Todo Mundo em Pânico 4 (2006)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Todo Mundo em Pânico 3 de 2003",
-        "title": "Todo Mundo em Pânico 3 (2003)",
-        "genre-text": "comédia de terror, sátira",
-        "genre-class": "comedy-horror satire"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Todo Mundo em Pânico 5 de 2013",
+      "title": "Todo Mundo em Pânico 5 (2013)",
+      "genre-text": "comédia de terror, sátira",
+      "genre-class": "comedy-horror satire"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Todo Mundo em Pânico 4 de 2006",
-        "title": "Todo Mundo em Pânico 4 (2006)",
-        "genre-text": "comédia de terror, sátira",
-        "genre-class": "comedy-horror satire"
-      },
+    {
+      "img-link": "https://wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "O pôster do filme: O chamado de 2002",
+      "title": "O chamado (2002)",
+      "genre-text": "terror",
+      "genre-class": "horror"
+    },
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Todo Mundo em Pânico 5 de 2013",
-        "title": "Todo Mundo em Pânico 5 (2013)",
-        "genre-text": "comédia de terror, sátira",
-        "genre-class": "comedy-horror satire"
-      },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "O pôster do filme: Corra! de 2017",
+      "title": "Corra! (2017)",
+      "genre-text": "terror, suspense misterioso",
+      "genre-class": "horror suspense mystery"
+    }
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: O chamado de 2002",
-        "title": "O chamado (2002)",
-        "genre-text": "terror",
-        "genre-class": "horror"
-      },
+  ],
 
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "O pôster do filme: Corra! de 2017",
-        "title": "Corra! (2017)",
-        "genre-text": "terror, suspense misterioso",
-        "genre-class": "horror suspense mystery"
-      }
+  "movies-en": [
 
-    ],
-
-    "movies-en": [
-
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: The Witch (2015)",
-        "title": "The Witch (2015)",
-        "genre-text": "horror",
-        "genre-class": "horror"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Sinister (2012)",
-        "title": "Sinister (2012)",
-        "genre-text": "horror, thriller",
-        "genre-class": "horror suspense"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Hereditary (2018)",
-        "title": "Hereditary (2018)",
-        "genre-text": "drama, horror",
-        "genre-class": "drama horror"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Scary Movie (2000)",
-        "title": "Scary Movie (2000)",
-        "genre-text": "horror comedy, satire",
-        "genre-class": "comedy-horror satire"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Scary Movie 2 (2001)",
-        "title": "Scary Movie 2 (2001)",
-        "genre-text": "horror comedy, satire",
-        "genre-class": "comedy-horror satire"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Scary Movie 3 (2003)",
-        "title": "Scary Movie 3 (2003)",
-        "genre-text": "horror comedy, satire",
-        "genre-class": "comedy-horror satire"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Scary Movie 4 (2006)",
-        "title": "Scary Movie 4 (2006)",
-        "genre-text": "horror comedy, satire",
-        "genre-class": "comedy-horror satire"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Scary Movie 5 (2013)",
-        "title": "Scary Movie 5 (2013)",
-        "genre-text": "horror comedy, satire",
-        "genre-class": "comedy-horror satire"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: The Ring (2002)",
-        "title": "The Ring (2002)",
-        "genre-text": "horror",
-        "genre-class": "horror"
-      },
-      {
-        "img-link": "https://wikimedia.org",
-        "img-desc": "The movie poster: Get Out (2017)",
-        "title": "Get Out (2017)",
-        "genre-text": "horror, mystery thriller",
-        "genre-class": "horror suspense mystery"
-      }
-    ]
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: The Witch (2015)",
+      "title": "The Witch (2015)",
+      "genre-text": "horror",
+      "genre-class": "horror"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Sinister (2012)",
+      "title": "Sinister (2012)",
+      "genre-text": "horror, thriller",
+      "genre-class": "horror suspense"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Hereditary (2018)",
+      "title": "Hereditary (2018)",
+      "genre-text": "drama, horror",
+      "genre-class": "drama horror"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Scary Movie (2000)",
+      "title": "Scary Movie (2000)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Scary Movie 2 (2001)",
+      "title": "Scary Movie 2 (2001)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Scary Movie 3 (2003)",
+      "title": "Scary Movie 3 (2003)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Scary Movie 4 (2006)",
+      "title": "Scary Movie 4 (2006)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Scary Movie 5 (2013)",
+      "title": "Scary Movie 5 (2013)",
+      "genre-text": "horror comedy, satire",
+      "genre-class": "comedy-horror satire"
+    },
+    {
+      "img-link": "https://wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "The movie poster: The Ring (2002)",
+      "title": "The Ring (2002)",
+      "genre-text": "horror",
+      "genre-class": "horror"
+    },
+    {
+      "img-link": "https://wikimedia.org",
+      "img-desc": "The movie poster: Get Out (2017)",
+      "title": "Get Out (2017)",
+      "genre-text": "horror, mystery thriller",
+      "genre-class": "horror suspense mystery"
+    }
+  ]
 
 }

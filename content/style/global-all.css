@@ -665,19 +665,58 @@ div#container-links {
 
 /* MAIN _______________________________________________________________________________________________________________________*/
 
-main {
-    padding: 0em 1em;
-    min-height: 50em;
-}
+    main
+    {
+        padding: 0em 1em;
+        min-height: 50em;
+    }
 
-    main > * {
+    main > *
+    {
         max-width: 70em;
         margin: 1.5em auto;
     }
 
-    main a {
+    main a
+    {
         text-align: center;
     }
+
+    /* MENU & CONTENT */
+
+    main.menu-and-content
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    div.content-list-section > *, div.search-menu-section > *
+    {
+        margin: 1.5em auto;
+    }
+
+    div.search-menu-section
+    {
+        position: relative;
+
+    }
+
+    div.search-menu-section > div
+    {
+    }
+
+    div.content-list-section
+    {
+
+    }
+
+
+    div#search-menu-section > div#search-menu-text
+    {
+        background-color: var(--color-dark-grey-02);
+    }
+
 
 div.section-title * {
     font-size: 2em;

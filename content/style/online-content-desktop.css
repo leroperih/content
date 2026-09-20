@@ -47,24 +47,6 @@
 
 /* MAIN _______________________________________________________________________________________________________________________*/
 
-    main
-    {
-        padding: 1em;
-    }
-
-    main.menu-and-content
-    {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    main > *
-    {
-        margin: 2em auto;
-    }
-
-
-/*  */
 
     section#apres
     {
@@ -78,16 +60,7 @@
         border-radius: 0.75em;
     }
 
-    main.menu-and-content > div#search-menu-section
-    {
-        margin: 2em;
-        width: 24em;
-    }
 
-    main.menu-and-content > div#content-list-section
-    {
-        width: 80%;
-    }
 
 
     section#apres > div:nth-of-type(1) > h2 { display: none; }

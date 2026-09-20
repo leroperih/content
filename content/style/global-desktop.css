@@ -134,49 +134,63 @@ div#container-links {
 
 /* MAIN _______________________________________________________________________________________________________________________*/
 
-main {
-    padding: 1em;
-}
-
-    main.menu-and-content {
-        display: flex;
-        flex-direction: row-reverse;
+    main
+    {
+        padding: 1em;
     }
 
-    main > * {
+    main > *
+    {
         margin: 2em auto;
     }
 
+    /* CONTENT & MENU */
 
-/*  */
+    main.menu-and-content
+    {
+        flex-direction: row-reverse;
+    }
 
-section#apres {
-    flex-direction: row;
-    gap: max(1em, 2vw);
-    box-shadow: none;
-}
+    main.menu-and-content > div.search-menu-section
+    {
+        width: 24em;
+    }
+
+    main.menu-and-content > div.content-list-section
+    {
+        width: 100%;
+    }
+
+
+    /* presentation */
+
+    section#apres {
+        flex-direction: row;
+        gap: max(1em, 2vw);
+        box-shadow: none;
+    }
 
     section#apres > div {
         border-radius: 0.75em;
     }
 
-main.menu-and-content > div.two-sides-structure-menu {
-    margin: 2em;
-    width: 24em;
-}
+    main.menu-and-content > div.two-sides-structure-menu {
+        margin: 2em;
+        width: 24em;
+    }
 
-main.menu-and-content > div.two-sides-structure-content {
-    width: 80%;
-}
+    main.menu-and-content > div.two-sides-structure-content {
+        width: 80%;
+    }
 
 
-section#apres > div:nth-of-type(1) > h2 {
-    display: none;
-}
+    section#apres > div:nth-of-type(1) > h2 {
+        display: none;
+    }
 
-section#apres > div:nth-of-type(2) > h2 {
-    display: block;
-}
+    section#apres > div:nth-of-type(2) > h2 {
+        display: block;
+    }
 
 
 

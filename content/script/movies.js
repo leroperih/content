@@ -37,7 +37,7 @@
 
             // Percorre o array de projetos do JSON
 
-            movies_list_title.innerHTML += `<h2>${dados.section-title-de</h2>}`; 
+            movies_list_title.innerHTML += `<h2>${dados.section-title-de}</h2>`; 
 
             dados.movies-de.forEach( movie => {
                 movies_list_area.innerHTML += createMoviesHTML(movie);

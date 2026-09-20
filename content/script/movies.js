@@ -1,6 +1,6 @@
  
-    const movies_list_area = document.getElementById("movies-section");
-    const movies_list_title = document.getElementById("movies-section-title");
+    const movies_list_area = document.querySelector('section#movies-section');
+    const movies_list_title = document.querySelector('div#movies-section-title');
 
 
     async function loadMovies()

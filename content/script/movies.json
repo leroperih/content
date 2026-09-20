@@ -3,7 +3,7 @@
   "section-title-pt": "Filmes Para Assitir",
   "section-title-en": "Movies to Watch",
 
-  "movies-de": [ // DEUTSCHLAND
+  "movies-de": [
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -15,7 +15,7 @@
 
   ],
 
-  "movies-pt": [ // BRASIL
+  "movies-pt": [
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -27,7 +27,7 @@
 
   ],
 
-  "movies-en": [ // UNITED STATES
+  "movies-en": [
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",

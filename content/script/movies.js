@@ -1,52 +1,56 @@
+ 
+    const movies_list_area = document.querySelector('section#movies-section');
+    const movies_list_title = document.querySelector('div#movies-section-title');
 
 
-const movies_list_area = document.querySelector('section#movies-section');
-const movies_list_title = document.querySelector('div#movies-section-title');
+    async function loadMovies()
+    {
+        try
+        {
 
-async function loadMovies() {
-    try {
-        // const urlParams = new URLSearchParams(window.location.search);
-        // const which_language = urlParams.get('hl');
+            // const urlParams = new URLSearchParams(window.location.search);
+            // const which_language = urlParams.get('hl');
 
-        const response = await fetch("content/script/movies.json");
-        if (!response.ok) throw new Error("The JSON file was not found!");
-        const dados = await response.json();
+            const response = await fetch("content/script/movies.json");
+            if (!response.ok) throw new Error("The JSON file was not found!");
+            const dados = await response.json();
 
-        // const which_movie_lang = `movies-${which_language}`;
-        // const which_section_title = `section-title-${which_language}`;
+            // const which_movie-lang = `movies-${which_language}`;
+            // const which-section-title = `section-title-${which_language}`;
 
-        // CORREÇÃO: Mudado o parâmetro para 'movie' (sem hífen)
-        // CORREÇÃO: Acesso às propriedades do JSON usando colchetes e aspas ['']
-        const createMoviesHTML = (movie) => `
-            <div class="movies-list ${movie['genre-class']}">
+            // Função que gera o HTML
+            const createMoviesHTML = (movies) => `
+                <div class="movies-list ${movies['genre-class']}">
 
-                <div>
-                    <img src="${movie['img-link']}" alt="${movie['img-desc']}">
-                </div>
+                    <div>
+                        <img src="${movies['img-link']}" alt="${movies['img-desc']}">
+                    </div>
 
-                <div>
-                    <h2>${movie.title}</h2>
-                    <p>GENRE: ${movie['genre-text']}</p>
-                </div>
+                    <div>
+                        <h2>${movies['title']}</h2>
+                        <p>GENRE: ${movies['genre-text']}</p>
+                    </div>
 
-            </div>`;
+                </div>`;
 
-        // CORREÇÃO: Acesso à propriedade com hífen usando colchetes
-        movies_list_title.innerHTML = `<h2>${dados['section-title-de']}</h2>`; 
 
-        // CORREÇÃO: Acesso à propriedade com hífen usando colchetes
-        dados['movies-de'].forEach(movie => {
-            movies_list_area.innerHTML += createMoviesHTML(movie);
-        });
+            // Percorre o array de projetos do JSON
 
+            movies_list_title.innerHTML = `<h2>${dados['section-title-de']}</h2>`; 
+
+            dados['movies-de'].forEach( movie => {
+                movies_list_area.innerHTML += createMoviesHTML(movie);
+            });
+
+        }
+        catch (error)
+        {
+            console.error("Erro ao carregar o arquivo local:", error);
+            movies_list_area.innerHTML += "<p>Erro ao carregar os filmes.</p>";
+        }
     }
-    catch (error) {
-        console.error("Erro ao carregar o arquivo local:", error);
-        movies_list_area.innerHTML += "<p>Erro ao carregar os filmes.</p>";
-    }
-}
 
-loadMovies();
+    loadMovies();
 
 
 

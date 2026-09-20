@@ -23,7 +23,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Hereditary – Das Vermächtnis von 2018",
       "title": "Hereditary – Das Vermächtnis (2018)",
       "genre-text": "Drama, Horror",
@@ -47,7 +47,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Scary Movie 3 von 2003",
       "title": "Scary Movie 3 (2003)",
       "genre-text": "Horrorkomödie, Satire",
@@ -55,7 +55,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Scary Movie 4 von 2006",
       "title": "Scary Movie 4 (2006)",
       "genre-text": "Horrorkomödie, Satire",
@@ -63,7 +63,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Scary Movie 5 von 2013",
       "title": "Scary Movie 5 (2013)",
       "genre-text": "Horrorkomödie, Satire",
@@ -76,14 +76,6 @@
       "title": "Ring (2002)",
       "genre-text": "Horror",
       "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://wikimedia.org",
-      "img-desc": "Das Filmplakat: Get Out von 2017",
-      "title": "Get Out (2017)",
-      "genre-text": "Horror, Mystery-Thriller",
-      "genre-class": "horror suspense mystery"
     }
   ],
 
@@ -106,7 +98,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Hereditário de 2018",
       "title": "Hereditário (2018)",
       "genre-text": "drama, terror",
@@ -130,7 +122,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Todo Mundo em Pânico 3 de 2003",
       "title": "Todo Mundo em Pânico 3 (2003)",
       "genre-text": "comédia de terror, sátira",
@@ -138,7 +130,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Todo Mundo em Pânico 4 de 2006",
       "title": "Todo Mundo em Pânico 4 (2006)",
       "genre-text": "comédia de terror, sátira",
@@ -146,7 +138,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Todo Mundo em Pânico 5 de 2013",
       "title": "Todo Mundo em Pânico 5 (2013)",
       "genre-text": "comédia de terror, sátira",
@@ -159,14 +151,6 @@
       "title": "O chamado (2002)",
       "genre-text": "terror",
       "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://wikimedia.org",
-      "img-desc": "O pôster do filme: Corra! de 2017",
-      "title": "Corra! (2017)",
-      "genre-text": "terror, suspense misterioso",
-      "genre-class": "horror suspense mystery"
     }
 
   ],
@@ -188,7 +172,7 @@
       "genre-class": "horror suspense"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Hereditary (2018)",
       "title": "Hereditary (2018)",
       "genre-text": "drama, horror",
@@ -209,21 +193,21 @@
       "genre-class": "comedy-horror satire"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 3 (2003)",
       "title": "Scary Movie 3 (2003)",
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 4 (2006)",
       "title": "Scary Movie 4 (2006)",
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 5 (2013)",
       "title": "Scary Movie 5 (2013)",
       "genre-text": "horror comedy, satire",
@@ -235,13 +219,6 @@
       "title": "The Ring (2002)",
       "genre-text": "horror",
       "genre-class": "horror"
-    },
-    {
-      "img-link": "https://wikimedia.org",
-      "img-desc": "The movie poster: Get Out (2017)",
-      "title": "Get Out (2017)",
-      "genre-text": "horror, mystery thriller",
-      "genre-class": "horror suspense mystery"
     }
   ]
 

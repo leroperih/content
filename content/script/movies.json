@@ -23,6 +23,14 @@
     },
 
     {
+      "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "Das Filmplakat: Sinister 2 von 2015",
+      "title": "Sinister 2 (2015)",
+      "genre-text": "Horror, Thriller",
+      "genre-class": "horror suspense"
+    },
+
+    {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Hereditary – Das Vermächtnis von 2018",
       "title": "Hereditary – Das Vermächtnis (2018)",
@@ -107,6 +115,14 @@
     },
 
     {
+      "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "O pôster do filme: Sinister 2 de 2015",
+      "title": "Sinister 2 (2015)",
+      "genre-text": "terror, suspense",
+      "genre-class": "horror suspense"
+    },
+
+    {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Hereditário de 2018",
       "title": "Hereditário (2018)",
@@ -186,6 +202,14 @@
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Sinister (2012)",
       "title": "Sinister (2012)",
+      "genre-text": "horror, thriller",
+      "genre-class": "horror suspense"
+    },
+
+    {
+      "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "img-desc": "The movie poster: Sinister 2 (2012)",
+      "title": "Sinister 2 (2012)",
       "genre-text": "horror, thriller",
       "genre-class": "horror suspense"
     },

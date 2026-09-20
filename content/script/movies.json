@@ -7,7 +7,7 @@
   "movies-de": [
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: The Witch von 2015",
       "title": "The Witch (2015)",
       "genre-text": "Horror",
@@ -15,7 +15,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Sinister von 2012",
       "title": "Sinister (2012)",
       "genre-text": "Horror, Thriller",
@@ -31,7 +31,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Scary Movie von 2000",
       "title": "Scary Movie (2000)",
       "genre-text": "Horrorkomödie, Satire",
@@ -39,7 +39,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "Das Filmplakat: Scary Movie 2 von 2001",
       "title": "Scary Movie 2 (2001)",
       "genre-text": "Horrorkomödie, Satire",
@@ -90,7 +90,7 @@
   "movies-pt": [
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: A Bruxa de 2015",
       "title": "A Bruxa (2015)",
       "genre-text": "terror",
@@ -98,7 +98,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Sinister de 2012",
       "title": "Sinister (2012)",
       "genre-text": "terror, suspense",
@@ -114,7 +114,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2000",
       "title": "Todo Mundo em Pânico (2000)",
       "genre-text": "comédia de terror, sátira",
@@ -122,7 +122,7 @@
     },
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "O pôster do filme: Todo Mundo em Pânico 2 de 2001",
       "title": "Todo Mundo em Pânico 2 (2001)",
       "genre-text": "comédia de terror, sátira",
@@ -174,14 +174,14 @@
   "movies-en": [
 
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: The Witch (2015)",
       "title": "The Witch (2015)",
       "genre-text": "horror",
       "genre-class": "horror"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Sinister (2012)",
       "title": "Sinister (2012)",
       "genre-text": "horror, thriller",
@@ -195,14 +195,14 @@
       "genre-class": "drama horror"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie (2000)",
       "title": "Scary Movie (2000)",
       "genre-text": "horror comedy, satire",
       "genre-class": "comedy-horror satire"
     },
     {
-      "img-link": "https://wikimedia.org",
+      "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
       "img-desc": "The movie poster: Scary Movie 2 (2001)",
       "title": "Scary Movie 2 (2001)",
       "genre-text": "horror comedy, satire",

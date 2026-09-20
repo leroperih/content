@@ -19,16 +19,16 @@
             // const which-section-title = `section-title-${which_language}`;
 
             // Função que gera o HTML
-            const createMoviesHTML = (movies-de) => `
-                <div class="movies-list ${movies-de.genre-class}">
+            const createMoviesHTML = (movies_de) => `
+                <div class="movies-list ${movies_de.genre-class}">
 
                     <div>
-                        <img src="${movies-de.img-link}" alt="${movies-de.img-desc}">
+                        <img src="${movies_de.img-link}" alt="${movies_de.img-desc}">
                     </div>
 
                     <div>
-                        <h2>${movies-de.title}</h2>
-                        <p>GENRE: ${movies-de.genre-text}</p>
+                        <h2>${movies_de.title}</h2>
+                        <p>GENRE: ${movies_de.genre-text}</p>
                     </div>
 
                 </div>`;
@@ -36,9 +36,9 @@
 
             // Percorre o array de projetos do JSON
 
-            movies_list_title.innerHTML = `<h2>${dados.section-title-de}</h2>`; 
+            movies_list_title.innerHTML = `<h2>${dados['section-title-de']}</h2>`; 
 
-            dados.movies-de.forEach( movie => {
+            dados['movies-de'].forEach( movie => {
                 movies_list_area.innerHTML += createMoviesHTML(movie);
             });
 

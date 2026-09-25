@@ -1,5 +1,5 @@
  
-    const content_list_section = document.getElementById("content-list-section");
+    const content_list_section = document.querySelector("div.content-list-section");
 
 
     async function loadBooks()

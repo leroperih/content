@@ -1,30 +1,13 @@
 
 @charset "UTF-8";
 
-
-
-
-
-
-
-
-
-
 :root
 {
 
-
-
-
-
-
     --size-icons: 3em;
-    --size-max-wdith-content: 64em;
+    --size-max-width-content: 64em;
 
     --transition-time-01: 0.15s;
-
-
-
 
 
 
@@ -336,179 +319,6 @@
 
 
 
-/* MAIN -> STUDY CONTENT _________________________________________________________________________________________________ */
-
-
-    div.study *
-    {  /* Study */
-        color: var(--color-light-white-02);
-        transition-duration: var(--transition-time-01);
-        display: flex;
-        justify-content: space-between;
-        overflow: hidden;
-    }
-
-    div.study h1
-    {
-        font-weight: bolder;
-    }
-    
-    div.container-study-elements
-    {
-        position: relative;
-        flex-direction: column;
-        border-radius: 1em;
-        box-shadow: 0em 0em 1.2em var(--color-medium-black-02);
-        border-left: 1.5px solid var(--color-medium-black-03);
-        border-right: 1.5px solid var(--color-medium-black-03);
-    }
-    
-    div.container-study-elements div
-    {
-        width: 100%; height: 100%;
-        position: relative;
-    }
-    
-    div.container-study-elements > div:nth-of-type(1)
-    {
-        box-sizing: border-box;
-        padding: 0.25em 1em;
-        height: 3.5em;
-        background-color: var(--color-darkest-black-03);
-        border-bottom: 1px solid var(--color-medium-black-02);
-    }
-    
-    div.container-study-elements > div:nth-of-type(2)
-    {
-        height: 16em;
-    }
-    
-    div.container-study-elements > div:nth-of-type(2) > div
-    {
-        box-sizing: border-box;
-        padding: 1.5em;
-        position: absolute;
-        bottom: 0em;
-        background-image: var(--container-study-elements-gradient-effect-01);
-        box-shadow: inset 0em 0em 3.5em var(--color-darkest-black-02);
-    }
-    
-    div.container-study-elements img
-    {
-        position: absolute;
-        width: 100%; height: 100%;
-        object-fit: cover;
-    }
-    
-    div.container-study-elements p
-    {
-        font-size: 1em;
-    }
-    
-    div.container-study-elements a
-    {
-        background-color: var(--color-light-black-03);
-        margin: 0.35em;
-        font-size: 1.35em;
-        padding: 0.2em 1em;
-        border: 1.5px solid var(--color-dark-grey-02);
-        border-radius: 0.6em;
-        position: absolute;
-        bottom: 0em; right: 0em;
-    }
-    
-    div.container-study-elements a:hover
-    {
-        background-color: var(--color-light-black-02);
-        box-shadow: inset 0em 0em 0.8em var(--color-darkest-black-01);
-    }
-
-
-    /*
-    div.container-study-elements:hover img
-    {
-        animation: AnimateStudyIMG 2s normal linear;
-        transition-duration: 2s;
-    }
-    */
-
-    div.container-study-elements div:nth-of-type(1) a { display: none; }
-    div.container-study-elements div:nth-of-type(2) a { display: block; }
-
-
-    div.study.two div.container-study-elements div:nth-of-type(1) a { display: block; }
-    div.study.two div.container-study-elements div:nth-of-type(2) a { display: none; }
-
-
-
-    div.study.two
-    {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-    
-    div.study.two > *
-    {
-    width: 100%;
-    }
-    
-    div.study.two > div > div:nth-of-type(2)
-    {
-    height: 10em;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SMALL SCREENS */
-
-
-
-
-
-
-
-
 
 
 
@@ -516,51 +326,59 @@
 
 /* HEADER _____________________________________________________________________________________________________________________*/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.75em 1em;
-    background-color: var(--color-medium-black-02);
-}
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75em 1em;
+        background-color: var(--color-medium-black-02);
+    }
 
-    header * {
+    header *
+    {
         color: var(--study-color-01);
         font-family: var(--font-apple);
         font-weight: lighter;
     }
 
-    header > div > div, header > div {
+    header > div > div, header > div
+    {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1em;
     }
 
-        header > div > div, div#related-links {
-            border: 2px solid var(--color-medium-black-01);
-            height: var(--size-icons);
-        }
+    header > div > div, div#related-links
+    {
+        border: 2px solid var(--color-medium-black-01);
+        height: var(--size-icons);
+    }
 
 
-            /* title & link */
+    /* title & link */
 
-            header > div > div:nth-last-of-type(1) {
-                box-sizing: border-box;
-                padding: 0em 1em;
-                border-radius: 0.5em;
-            }
+    header > div > div:nth-last-of-type(1)
+    {
+        box-sizing: border-box;
+        padding: 0em 1em;
+        border-radius: 0.5em;
+    }
 
 
-/* Icons */
+    /* Icons */
 
-div.icon {
-    box-sizing: border-box;
-    width: var(--size-icons);
-    height: var(--size-icons);
-    border-radius: 50%;
-}
+    div.icon
+    {
+        box-sizing: border-box;
+        width: var(--size-icons);
+        height: var(--size-icons);
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
 
-    div.icon * {
+    div.icon *
+    {
         width: 100%;
         height: 100%;
         border-radius: 50%;
@@ -573,43 +391,31 @@ div.icon {
 
     /* Icons Hover */
 
-    div.icon:hover > div, div.icon:hover > a {
+    div.icon:hover > div, div.icon:hover > a
+    {
         width: 90%;
         height: 90%;
     }
 
-    div.icon:hover {
+    div.icon:hover
+    {
         background: var(--hover-color-01);
         box-shadow: 0em 0em 0.25em var(--hover-color-01);
     }
 
 
-/* Icone Menu Burger */
 
-div#container-burge > div > div {
-    width: 65%;
-    height: 65%;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-    div#container-burge > div > div > div {
-        width: 90%;
-        height: 0.1em;
-        background-color: var(--study-color-01);
-        border-radius: 05% / 50%;
-    }
 
 
 /* Study Title */
 
-div#container-title h1 {
-    display: flex;
-    align-items: center;
-    gap: 0.25em;
-    transition-duration: 0.35s;
-    font-size: 1.8em;
-}
+    div#container-title h1 {
+        display: flex;
+        align-items: center;
+        gap: 0.25em;
+        transition-duration: 0.35s;
+        font-size: 1.8em;
+    }
 
     div#container-title h1 > span {
         color: var(--color-light-grey-01);
@@ -620,12 +426,12 @@ div#container-title h1 {
     }
 
 
-/* Study Title Hover */
+    /* Study Title Hover */
 
-div#container-waifu:hover ~ div#container-title {
-    box-shadow: inset 0em 0em 2em var(--color-medium-black-01);
-    background-color: var(--color-darkest-black-02);
-}
+    div#container-waifu:hover ~ div#container-title {
+        box-shadow: inset 0em 0em 2em var(--color-medium-black-01);
+        background-color: var(--color-darkest-black-02);
+    }
 
     div#container-waifu:hover ~ div#container-title * {
         color: var(--color-lighter-white-02);

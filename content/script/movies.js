@@ -20,24 +20,23 @@
                 <div class="movies-list ${movies['genre-class']}">
 
                     <div>
-                        <img src="${movies['img-link']}" alt="${movies['img-desc']}">
+                        <img src="${movies['img-link']}" alt="${movies['img-desc'][which_language]}">
                     </div>
 
                     <div>
-                        <h2>${movies['title']}</h2>
-                        <p>GENRE: ${movies['genre-text']}</p>
+                        <h2>${movies['title'][which_language]}</h2>
+                        <p>GENRE: ${movies['genre-text'][which_language]}</p>
                     </div>
 
                 </div>`;
 
 
-            // Percorre o array de projetos do JSON
 
-            movies_list_title.innerHTML = `<h2>${dados[`section-title-${which_language}`]}</h2>`; 
+            movies_list_title.innerHTML = `<h2>${dados["section-title"][which_language]}</h2>`; 
 
             let completeHTML = "";
 
-            dados[`movies-${which_language}`].forEach( movie => {
+            dados.movies.forEach( movie => {
                 completeHTML += createMoviesHTML(movie);
             });
 

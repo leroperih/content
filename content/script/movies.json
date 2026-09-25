@@ -1,307 +1,251 @@
 {
 
-  "section-title-de": "Filme zum Ansehen",
-  "section-title-pt": "Filmes Para Assistir",
-  "section-title-en": "Movies to Watch",
+  "section-title": {
+    "de": "Filme zum Ansehen",
+    "pt": "Filmes Para Assistir",
+    "en": "Movies to Watch"
+  },
 
-  "movies-de": [
+  "movies": [
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: The Witch von 2015",
-      "title": "The Witch (2015)",
-      "genre-text": "Horror",
+      "img-desc": {
+        "de": "Das Filmplakat: The Witch von 2015",
+        "pt": "O pôster do filme: A Bruxa de 2015",
+        "en": "The movie poster: The Witch (2015)"
+      },
+      "title": {
+        "de": "The Witch (2015)",
+        "pt": "A Bruxa (2015)",
+        "en": "The Witch (2015)"
+      },
+      "genre-text": {
+        "de": "Horror",
+        "pt": "terror",
+        "en": "horror"
+      },
       "genre-class": "horror"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Sinister von 2012",
-      "title": "Sinister (2012)",
-      "genre-text": "Horror, Thriller",
+      "img-desc": {
+        "de": "Das Filmplakat: Sinister von 2012",
+        "pt": "O pôster do filme: Sinister de 2012",
+        "en": "The movie poster: Sinister (2012)"
+      },
+      "title": {
+        "de": "Sinister (2012)",
+        "pt": "Sinister (2012)",
+        "en": "Sinister (2012)"
+      },
+      "genre-text": {
+        "de": "Horror, Thriller",
+        "pt": "terror, suspense",
+        "en": "horror, thriller"
+      },
       "genre-class": "horror suspense"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Sinister 2 von 2015",
-      "title": "Sinister 2 (2015)",
-      "genre-text": "Horror, Thriller",
+      "img-desc": {
+        "de": "Das Filmplakat: Sinister 2 von 2015",
+        "pt": "O pôster do filme: Sinister 2 de 2015",
+        "en": "The movie poster: Sinister 2 (2012)"
+      },
+      "title": {
+        "de": "Sinister 2 (2015)",
+        "pt": "Sinister 2 (2015)",
+        "en": "Sinister 2 (2012)"
+      },
+      "genre-text": {
+        "de": "Horror, Thriller",
+        "pt": "terror, suspense",
+        "en": "horror, thriller"
+      },
       "genre-class": "horror suspense"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Hereditary – Das Vermächtnis von 2018",
-      "title": "Hereditary – Das Vermächtnis (2018)",
-      "genre-text": "Drama, Horror",
+      "img-desc": {
+        "de": "Das Filmplakat: Hereditary – Das Vermächtnis von 2018",
+        "pt": "O pôster do filme: Hereditário de 2018",
+        "en": "The movie poster: Hereditary (2018)"
+      },
+      "title": {
+        "de": "Hereditary – Das Vermächtnis (2018)",
+        "pt": "Hereditário (2018)",
+        "en": "Hereditary (2018)"
+      },
+      "genre-text": {
+        "de": "Drama, Horror",
+        "pt": "drama, terror",
+        "en": "drama, horror"
+      },
       "genre-class": "drama horror"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie von 2000",
-      "title": "Scary Movie (2000)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie von 2000",
+        "pt": "O pôster do filme: Todo Mundo em Pânico de 2000",
+        "en": "The movie poster: Scary Movie (2000)"
+      },
+      "title": {
+        "de": "Scary Movie (2000)",
+        "pt": "Todo Mundo em Pânico (2000)",
+        "en": "Scary Movie (2000)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie 2 von 2001",
-      "title": "Scary Movie 2 (2001)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie 2 von 2001",
+        "pt": "O pôster do filme: Todo Mundo em Pânico 2 de 2001",
+        "en": "The movie poster: Scary Movie 2 (2001)"
+      },
+      "title": {
+        "de": "Scary Movie 2 (2001)",
+        "pt": "Todo Mundo em Pânico 2 (2001)",
+        "en": "Scary Movie 2 (2001)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie 3 von 2003",
-      "title": "Scary Movie 3 (2003)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie 3 von 2003",
+        "pt": "O pôster do filme: Todo Mundo em Pânico 3 de 2003",
+        "en": "The movie poster: Scary Movie 3 (2003)"
+      },
+      "title": {
+        "de": "Scary Movie 3 (2003)",
+        "pt": "Todo Mundo em Pânico 3 (2003)",
+        "en": "Scary Movie 3 (2003)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie 4 von 2006",
-      "title": "Scary Movie 4 (2006)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie 4 von 2006",
+        "pt": "O pôster do filme: Todo Mundo em Pânico 4 de 2006",
+        "en": "The movie poster: Scary Movie 4 (2006)"
+      },
+      "title": {
+        "de": "Scary Movie 4 (2006)",
+        "pt": "Todo Mundo em Pânico 4 (2006)",
+        "en": "Scary Movie 4 (2006)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie 5 von 2013",
-      "title": "Scary Movie 5 (2013)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie 5 von 2013",
+        "pt": "O pôster do filme: Todo Mundo em Pânico 5 de 2013",
+        "en": "The movie poster: Scary Movie 5 (2013)"
+      },
+      "title": {
+        "de": "Scary Movie 5 (2013)",
+        "pt": "Todo Mundo em Pânico 5 (2013)",
+        "en": "Scary Movie 5 (2013)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Scary Movie von 2026",
-      "title": "Scary Movie (2026)",
-      "genre-text": "Horrorkomödie, Satire",
+      "img-desc": {
+        "de": "Das Filmplakat: Scary Movie von 2026",
+        "pt": "O pôster do filme: Todo Mundo em Pânico de 2026",
+        "en": "The movie poster: Scary Movie (2026)"
+      },
+      "title": {
+        "de": "Scary Movie (2026)",
+        "pt": "Todo Mundo em Pânico (2026)",
+        "en": "Scary Movie (2026)"
+      },
+      "genre-text": {
+        "de": "Horrorkomödie, Satire",
+        "pt": "comédia de terror, sátira",
+        "en": "horror comedy, satire"
+      },
       "genre-class": "comedy-horror satire"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Ring von 2002",
-      "title": "Ring (2002)",
-      "genre-text": "Horror",
+      "img-desc": {
+        "de": "Das Filmplakat: Ring von 2002",
+        "pt": "O pôster do filme: O chamado de 2002",
+        "en": "The movie poster: The Ring (2002)"
+      },
+      "title": {
+        "de": "Ring (2002)",
+        "pt": "O Chamado (2002)",
+        "en": "The Ring (2002)"
+      },
+      "genre-text": {
+        "de": "Horror",
+        "pt": "terror",
+        "en": "horror"
+      },
       "genre-class": "horror"
     },
 
     {
       "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "Das Filmplakat: Mein großer Freund Shane von 1953",
-      "title": "Mein großer Freund Shane (1953)",
-      "genre-text": "Western, Drama",
-      "genre-class": "western drama"
-    }
-
-  ],
-
-  "movies-pt": [
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: A Bruxa de 2015",
-      "title": "A Bruxa (2015)",
-      "genre-text": "terror",
-      "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Sinister de 2012",
-      "title": "Sinister (2012)",
-      "genre-text": "terror, suspense",
-      "genre-class": "horror suspense"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Sinister 2 de 2015",
-      "title": "Sinister 2 (2015)",
-      "genre-text": "terror, suspense",
-      "genre-class": "horror suspense"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Hereditário de 2018",
-      "title": "Hereditário (2018)",
-      "genre-text": "drama, terror",
-      "genre-class": "drama horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2000",
-      "title": "Todo Mundo em Pânico (2000)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico 2 de 2001",
-      "title": "Todo Mundo em Pânico 2 (2001)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico 3 de 2003",
-      "title": "Todo Mundo em Pânico 3 (2003)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico 4 de 2006",
-      "title": "Todo Mundo em Pânico 4 (2006)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico 5 de 2013",
-      "title": "Todo Mundo em Pânico 5 (2013)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Todo Mundo em Pânico de 2026",
-      "title": "Todo Mundo em Pânico (2026)",
-      "genre-text": "comédia de terror, sátira",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: O chamado de 2002",
-      "title": "O Chamado (2002)",
-      "genre-text": "terror",
-      "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "O pôster do filme: Os Brutos Também Amam de 1953",
-      "title": "Os Brutos Também Amam (1953)",
-      "genre-text": "faroeste, drama",
-      "genre-class": "western drama"
-    }
-
-  ],
-
-  "movies-en": [
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/2/21/A_Bruxa_-_poster.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: The Witch (2015)",
-      "title": "The Witch (2015)",
-      "genre-text": "horror",
-      "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/4/44/Sinister.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Sinister (2012)",
-      "title": "Sinister (2012)",
-      "genre-text": "horror, thriller",
-      "genre-class": "horror suspense"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/en/9/99/Sinister2Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Sinister 2 (2012)",
-      "title": "Sinister 2 (2012)",
-      "genre-text": "horror, thriller",
-      "genre-class": "horror suspense"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d9/Hereditary.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Hereditary (2018)",
-      "title": "Hereditary (2018)",
-      "genre-text": "drama, horror",
-      "genre-class": "drama horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/d/d8/ScaryMovie.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie (2000)",
-      "title": "Scary Movie (2000)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/6/61/ScaryMovie2.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie 2 (2001)",
-      "title": "Scary Movie 2 (2001)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/f/f9/ScaryMovie3.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie 3 (2003)",
-      "title": "Scary Movie 3 (2003)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/7/7e/ScaryMovie4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie 4 (2006)",
-      "title": "Scary Movie 4 (2006)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/e/e6/Scary_Movie_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie 5 (2013)",
-      "title": "Scary Movie 5 (2013)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/5/55/Scary_Movie_6.webp?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Scary Movie (2026)",
-      "title": "Scary Movie (2026)",
-      "genre-text": "horror comedy, satire",
-      "genre-class": "comedy-horror satire"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/pt/1/1c/The_Ring_%282002%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: The Ring (2002)",
-      "title": "The Ring (2002)",
-      "genre-text": "horror",
-      "genre-class": "horror"
-    },
-
-    {
-      "img-link": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shane_%281953_poster%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
-      "img-desc": "The movie poster: Shane (1953)",
-      "title": "Shane (1953)",
-      "genre-text": "western, drama",
+      "img-desc": {
+        "de": "Das Filmplakat: Mein großer Freund Shane von 1953",
+        "pt": "O pôster do filme: Os Brutos Também Amam de 1953",
+        "en": "The movie poster: Shane (1953)"
+      },
+      "title": {
+        "de": "Mein großer Freund Shane (1953)",
+        "pt": "Os Brutos Também Amam (1953)",
+        "en": "Shane (1953)"
+      },
+      "genre-text": {
+        "de": "Western, Drama",
+        "pt": "faroeste, drama",
+        "en": "western, drama"
+      },
       "genre-class": "western drama"
     }
 
   ]
-
-}

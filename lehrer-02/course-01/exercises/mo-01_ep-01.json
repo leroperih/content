@@ -1,0 +1,177 @@
+
+{
+
+  "episode": {
+    "de": "",
+    "pt": "MO-01 EP-01 _ Intrudução á Segurança Ofensiva",
+    "en": "MO-01 EP-01 _ Offensive Security Intro"
+  },
+
+  "tasks": [
+
+    {
+
+      "task_title": {
+        "de": "Task 01 - ",
+        "pt": "Task 01 - Pense como um Hacker!",
+        "en": "Task 01 - Think like a Hacker!"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "",
+                "pt": "Pense como um Hacker!",
+                "en": "Think like a Hacker!"
+              }
+            },
+
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "Offensive Security é sobre pensar como um atacker para achar fraquezas antes que um hacker real ache.",
+                "en": "Offensive Security is about thinking like an attacker to find weaknesses before real hackers do."
+              }
+            },
+
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "O termo que descreve o ato de simular as ações de um hacker para achar fraquezas é: Offensive Security!",
+                "en": "The term that describes simulating a hacker's actions to find weaknesses is called: Offensive Security!"
+              }
+            }
+      ],
+
+      "comment": {
+        "de": "",
+        "pt": "Bem simpleszinha essa task-01",
+        "en": ""
+      }
+
+    },
+
+
+
+    {
+
+      "task_title": {
+        "de": "Task 02 - ",
+        "pt": "Task 02 - Iniciando o Laboratório",
+        "en": "Task 02 - Starting the Lab"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "",
+                "pt": "Iniciando o Laboratório",
+                "en": "Starting the Lab"
+              }
+            },
+
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "Nessa Task-02 eu acessei a simulação de uma página de banco e tive que buscar pelo número de conta do usuário fictício no site.",
+                "en": ""
+              }
+            }
+      ],
+
+      "comment": {
+        "de": "",
+        "pt": "Bem simpleszinha essa task-02",
+        "en": ""
+      }
+
+    },
+
+
+
+    {
+
+      "task_title": {
+        "de": "Task 03 - ",
+        "pt": "Task 03 - Encontre Páginas Ocultas",
+        "en": "Task 03 - Find Hidden Pages"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "",
+                "pt": "Encontre Páginas Ocultas",
+                "en": "Find Hidden Pages"
+              }
+            },
+
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "Nessa Task-03 eu tive que encontrar duas páginas ocultas dentro de um site de banco fictício usando o comando dirb.",
+                "en": ""
+              }
+            }
+      ],
+
+      "comment": {
+        "de": "",
+        "pt": "Bem interessante essa task-03, eu aprendi o que é o commando 'dirb'",
+        "en": ""
+      }
+
+    },
+
+
+
+    {
+
+      "task_title": {
+        "de": "Task 04 - ",
+        "pt": "Task 04 - Ataque a Página de Administração",
+        "en": "Task 04 - Attack the Admin Page"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "",
+                "pt": "Ataque a Página de Administração",
+                "en": "Attack the Admin Page"
+              }
+            },
+
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "Nessa Task-04 eu tive que hacker a página de administração que eu encontrei ao usar o comando 'dirb' na task anterior. E usando o número de conta do usuário que eu consegui na task 02 eu depositei dinheiro na minha conta bancária.",
+                "en": ""
+              }
+            }
+      ],
+
+      "comment": {
+        "de": "",
+        "pt": "Resumidamente, já faço parte da Anônimos!",
+        "en": ""
+      }
+
+    }
+
+  ]
+  
+}

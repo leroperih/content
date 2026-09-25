@@ -3,57 +3,48 @@
     const movies_list_title = document.querySelector('div#movies-section-title');
 
 
-    async function loadMovies()
-    {
-        try
-        {
+async function loadMovies() {
+    try {
+        const urlParams = new URLSearchParams(window.location.search);
+        // Define 'en' como padrão caso o parâmetro 'hl' não seja encontrado na URL
+        const which_language = urlParams.get('hl') || 'en';
 
-            const urlParams = new URLSearchParams(window.location.search);
-            const which_language = urlParams.get('hl');
+        const response = await fetch("content/script/movies.json");
+        if (!response.ok) throw new Error("The JSON file was not found!");
+        const dados = await response.json();
 
-            const response = await fetch("content/script/movies.json");
-            if (!response.ok) throw new Error("The JSON file was not found!");
-            const dados = await response.json();
+        // Correção: alterado o parâmetro de 'movies' para 'movie' para combinar com as propriedades internas
+        const createMoviesHTML = (movie) => `
+            <div class="movies-list ${movie['genre-class']}">
+                <div>
+                    <img src="${movie['img-link']}" alt="${movie['img-desc'][which_language]}">
+                </div>
+                <div>
+                    <h2>${movie['title'][which_language]}</h2>
+                    <p>GENRE: ${movie['genre-text'][which_language]}</p>
+                </div>
+            </div>`;
 
-            // Função que gera o HTML
-            const createMoviesHTML = (movies) => `
-                <div class="movies-list ${movies['genre-class']}">
+        // Define o título da seção
+        movies_list_title.innerHTML = `<h2>${dados["section-title"][which_language]}</h2>`;
 
-                    <div>
-                        <img src="${movies['img-link']}" alt="${movies['img-desc'][which_language]}">
-                    </div>
+        let completeHTML = "";
 
-                    <div>
-                        <h2>${movies['title'][which_language]}</h2>
-                        <p>GENRE: ${movies['genre-text'][which_language]}</p>
-                    </div>
+        // Otimização: Gera todo o HTML na string
+        dados.movies.forEach(movie => {
+            completeHTML += createMoviesHTML(movie);
+        });
 
-                </div>`;
+        // Injeta o HTML completo na área de destino
+        movies_list_area.innerHTML = completeHTML;
 
-
-
-            movies_list_title.innerHTML = `<h2>${dados["section-title"][which_language]}</h2>`; 
-
-            let completeHTML = "";
-
-            dados.movies.forEach( movie => {
-                completeHTML += createMoviesHTML(movie);
-            });
-
-            movies_list_area.innerHTML += completeHTML;
-
-        }
-        catch (error)
-        {
-            console.error("Erro ao carregar o arquivo local:", error);
-            movies_list_area.innerHTML += "<p>Erro ao carregar os filmes.</p>";
-        }
+    } catch (error) {
+        console.error("Erro ao carregar o arquivo local:", error);
+        movies_list_area.innerHTML = "<p>Erro ao carregar os filmes.</p>";
     }
+}
 
-    loadMovies();
-
-
-
+loadMovies();
 
 
 

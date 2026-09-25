@@ -12,8 +12,13 @@ async function loadExercises() {
 
         // URL PARAMETERS
         const urlParams = new URLSearchParams(window.location.search);
-        const url_language = urlParams.get('hl');
-        if (url_language != "de" || url_language != "en" || url_language != "pt") { url_language = "pt" }
+        // Alterado para 'let' para permitir reatribuição se o idioma não for suportado
+        let url_language = urlParams.get('hl');
+
+        // Corrigido para && (se não for de, E não for en, E não for pt, mude para pt)
+        if (url_language !== "de" && url_language !== "en" && url_language !== "pt") {
+            url_language = "pt";
+        }
         const url_module = urlParams.get('mo');
         const url_episode = urlParams.get('ep');
 
@@ -30,23 +35,29 @@ async function loadExercises() {
 
         content_list_section.innerHTML = "";
 
-        const which_board = 1;
+        dados.tasks.forEach(task => {
 
-        dados.tasks.forEach( task => {
+            // 1. Cria os elementos estruturais na memória para não quebrar a seleção
+            const taskContainer = document.createElement('div');
+            taskContainer.className = "task-container"; // Container para agrupar o título e o board desta task
 
-            content_list_section.innerHTML += `<h2>${task.task_title[`${url_language}`]}</h2>`;
+            const titleHTML = `<h2>${task.task_title[url_language]}</h2>`;
+            const boardHTML = `<div class="exercises-board"></div>`;
+            const commentHTML = `<div class="code"><code>${task.comment}</code></div>`;
 
-            content_list_section.innerHTML += '<div class="exercises-board"></div>';
+            // Adiciona a estrutura inicial da task no container
+            taskContainer.innerHTML = titleHTML + boardHTML + commentHTML;
 
-            const exercises_board = document.querySelector("div.exercises-board"); // :nth-of-type()
+            // 2. Busca o quadro de exercícios especificamente DENTRO deste container
+            const exercises_board = taskContainer.querySelector("div.exercises-board");
 
-            task.content.forEach( html => {
-
-                exercises_board.innerHTML += `<${html.type}>${html.text[`${url_language}`]}</${html.type}>`;
-
+            // 3. Alimenta o quadro de exercícios
+            task.content.forEach(html => {
+                exercises_board.innerHTML += `<${html.type}>${html.text[url_language]}</${html.type}>`;
             });
 
-            content_list_section.innerHTML = `<div class="code"><code>${task.comment}</code></div>`
+            // 4. Adiciona o container completo ao DOM (usa += para acumular e não apagar as anteriores)
+            content_list_section.appendChild(taskContainer);
 
         });
 

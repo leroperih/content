@@ -17,16 +17,16 @@ async function loadMovies() {
         const createMoviesHTML = (movie) => `
             <div class="movies-list ${movie['genre-class']}">
                 <div>
-                    <img src="${movie['img-link']}" alt="${movie['img-desc'][which_language]}">
+                    <img src="${movie['img-link']}" alt="${movie['img-desc'][`${which_language}`]}">
                 </div>
                 <div>
-                    <h2>${movie['title'][which_language]}</h2>
-                    <p>GENRE: ${movie['genre-text'][which_language]}</p>
+                    <h2>${movie['title'][`${which_language}`]}</h2>
+                    <p>GENRE: ${movie['genre-text'][`${which_language}`]}</p>
                 </div>
             </div>`;
 
         // Define o título da seção
-        movies_list_title.innerHTML = `<h2>${dados["section-title"][which_language]}</h2>`;
+        movies_list_title.innerHTML = `<h2>${dados["section-title"][`${ which_language}`]}</h2>`;
 
         // Otimização usando map e join para gerar o HTML completo
         const completeHTML = dados.movies.map(createMoviesHTML).join('');

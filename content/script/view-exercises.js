@@ -39,7 +39,7 @@ async function loadExercises() {
 
             // 1. Cria os elementos estruturais na memória para não quebrar a seleção
             const taskContainer = document.createElement('div');
-            taskContainer.className = "task-container"; // Container para agrupar o título e o board desta task
+            taskContainer.className = "exercise-board-container"; // Container para agrupar o título e o board desta task
 
             const titleHTML = `<h2>${task.task_title[url_language]}</h2>`;
             const boardHTML = `<div class="exercises-board"></div>`;
@@ -63,7 +63,7 @@ async function loadExercises() {
 
     } catch (error) {
         // Corrigido para url_module (com 'e') e usando crases corretamente
-        content_list_section.innerHTML = `<p>Erro ao carregar a visualização dos exercícios</p>`;
+        content_list_section.innerHTML += `<p>Erro ao carregar a visualização dos exercícios</p>`;
         console.error(error); // Boa prática para ver o erro real no console do navegador
     }
 

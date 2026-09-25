@@ -727,16 +727,33 @@ div#container-links {
         height: 100%;
     } 
 
+    
 
+
+    div.exercise-board-container
+    {
+        padding: 1em 2em;
+    }
 
     div.exercises-board
     {
+        margin: 1em 0em;
         box-sizing: border-box;
         background-color: var(--color-lighter-white-01);
         border-radius: 0.75em;
         padding: 2em;
         border: 0.05em solid var(--color-dark-grey-01);
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
+    div.exercises-board *
+    {
+        color: var( --color-dark-black-01 );
+        font-weight: normal;
+        padding: 0em;
+    }
+
 
 
 

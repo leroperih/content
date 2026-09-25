@@ -41,9 +41,9 @@ async function loadExercises() {
             const taskContainer = document.createElement('div');
             taskContainer.className = "exercise-board-container"; // Container para agrupar o título e o board desta task
 
-            const titleHTML = `<h2>${task.task_title[url_language]}</h2>`;
+            const titleHTML = `<h1>${task.task_title[url_language]}</h1>`;
             const boardHTML = `<div class="exercises-board"></div>`;
-            const commentHTML = `<div class="code"><code>${task.comment}</code></div>`;
+            const commentHTML = `<div class="code"><code>${task.comment[`${url_language}`]}</code></div>`;
 
             // Adiciona a estrutura inicial da task no container
             taskContainer.innerHTML = titleHTML + boardHTML + commentHTML;

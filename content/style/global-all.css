@@ -524,17 +524,17 @@ div#container-links {
     }
 
 
-div.section-title * {
-    font-size: 2em;
-    text-indent: 0.5em;
-    font-weight: 100;
-    border-left: 2px solid var(--color-light-grey-01);
-}
+    div.section-title * {
+        font-size: 2em;
+        text-indent: 0.5em;
+        font-weight: 100;
+        border-left: 2px solid var(--color-light-grey-01);
+    }
 
-div.access-content {
-    margin: 2em auto;
-    text-align: center;
-}
+    div.access-content {
+        margin: 2em auto;
+        text-align: center;
+    }
 
     div.access-content > a {
         border: 1px solid var(--color-dark-grey-01);
@@ -544,90 +544,90 @@ div.access-content {
     }
 
 
-/* PRESENTATION */
+    /* PRESENTATION */
 
-section#apres {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border-radius: 1em;
-    box-shadow: inset 0em 0em 1em var(--color-darkest-black-02);
-}
+    section#apres {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 1em;
+        box-shadow: inset 0em 0em 1em var(--color-darkest-black-02);
+    }
 
     section#apres > div {
         overflow: hidden;
     }
 
-        section#apres > div:nth-of-type(1) > h2 {
-            display: block;
-        }
+    section#apres > div:nth-of-type(1) > h2 {
+        display: block;
+    }
 
-        section#apres > div:nth-of-type(2) > h2 {
-            display: none;
-        }
-
-
-        /* Presentation Img */
-
-        section#apres > div:nth-of-type(1) {
-            max-height: 10em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-bottom: 1.5px solid var(--color-light-grey-02);
-        }
-
-            section#apres > div:nth-of-type(1) > img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                overflow: hidden;
-            }
-
-            section#apres > div:nth-of-type(1) > h2 {
-                position: absolute;
-                font-size: 1.8em;
-            }
+    section#apres > div:nth-of-type(2) > h2 {
+        display: none;
+    }
 
 
-        /* Presentation Txt */
+    /* Presentation Img */
 
-        section#apres > div > h2, main p {
-            padding: 1.5em 1.5em;
-            font-family: var(--font-apple);
-            color: var(--color-lighter-white-02);
-        }
+    section#apres > div:nth-of-type(1) {
+        max-height: 10em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1.5px solid var(--color-light-grey-02);
+    }
 
-        section#apres > div > p {
-            text-indent: 1em;
-        }
+    section#apres > div:nth-of-type(1) > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    section#apres > div:nth-of-type(1) > h2 {
+        position: absolute;
+        font-size: 1.8em;
+    }
 
 
-/* Other Styles */
+    /* Presentation Txt */
 
-.container-study {
-    background-color: var(--color-medium-black-02);
-    box-shadow: inset 0em 0em 2em var(--color-darkest-black-02);
-    border-radius: 0.75em;
-    padding: 0em;
-    overflow: hidden;
-}
+    section#apres > div > h2, main p {
+        padding: 1.5em 1.5em;
+        font-family: var(--font-apple);
+        color: var(--color-lighter-white-02);
+    }
+
+    section#apres > div > p {
+        text-indent: 1em;
+    }
+
+
+    /* Other Styles */
+
+    .container-study {
+        background-color: var(--color-medium-black-02);
+        box-shadow: inset 0em 0em 2em var(--color-darkest-black-02);
+        border-radius: 0.75em;
+        padding: 0em;
+        overflow: hidden;
+    }
 
     .container-study > p {
         margin-bottom: 2.5em;
     }
 
-h2.study {
-    background-color: var(--study-color-03);
-    padding: 0.25em 0.5em;
-    font-family: var(--font-apple);
-    font-weight: normal;
-}
+    h2.study {
+        background-color: var(--study-color-03);
+        padding: 0.25em 0.5em;
+        font-family: var(--font-apple);
+        font-weight: normal;
+    }
 
-div.container-content td, div.container-content th {
-    padding: 0.5em 0.25em;
-    text-align: center;
-}
+    div.container-content td, div.container-content th {
+        padding: 0.5em 0.25em;
+        text-align: center;
+    }
 
     div.code * {
         text-wrap: balance;
@@ -675,57 +675,68 @@ div.container-content td, div.container-content th {
 
 
 
-div.container-content { /* Tabelas */
-    padding: 1em;
-}
+    div.container-content { /* Tabelas */
+        padding: 1em;
+    }
 
-table {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 1em;
-}
+    table {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 1em;
+    }
 
     table * {
         font-family: var(--font-apple);
         color: var(--color-light-grey-01);
     }
 
-div > table > tbody > tr {
-    background-color: var(--color-dark-grey-02);
-}
+    div > table > tbody > tr {
+        background-color: var(--color-dark-grey-02);
+    }
 
-table > thead > tr > th { /* Tabelas Header */
-    border-bottom: 1.5px solid var(--color-light-grey-02);
-    font-size: 1em;
-}
+    table > thead > tr > th { /* Tabelas Header */
+        border-bottom: 1.5px solid var(--color-light-grey-02);
+        font-size: 1em;
+    }
 
     table > thead > tr > th:nth-of-type(1) {
         width: 8em;
     }
 
 
-table > tbody > tr > td:nth-of-type(3) { /* Mais Informações */
-    width: 1.75em;
-    padding: 0.25em;
-}
+    table > tbody > tr > td:nth-of-type(3) { /* Mais Informações */
+        width: 1.75em;
+        padding: 0.25em;
+    }
 
-section.container-study table > tbody > tr:nth-of-type(2n) {
-    display: none;
-}
+    section.container-study table > tbody > tr:nth-of-type(2n) {
+        display: none;
+    }
 
-div.m-info {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    line-height: 0em;
-    border-radius: 50%;
-    cursor: pointer;
-}
+    div.m-info {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        line-height: 0em;
+        border-radius: 50%;
+        cursor: pointer;
+    }
 
     div.m-info > img {
         width: 100%;
         height: 100%;
     } 
+
+
+
+    div.exercise-board
+    {
+        box-sizing: border-box;
+        background-color: var(--color-lighter-white-01);
+        border-radius: 0.75em;
+        padding: 2em;
+        border: 0.05em solid var(--color-dark-grey-01);
+    }
 
 
 

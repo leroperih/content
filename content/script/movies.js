@@ -13,7 +13,7 @@ async function loadMovies() {
         if (!response.ok) throw new Error("The JSON file was not found!");
         const dados = await response.json();
 
-        // Correção: alterado o parâmetro de 'movies' para 'movie' para combinar com as propriedades internas
+        // AJUSTE AQUI: Acessando o objeto interno com a sintaxe de colchetes [which_language]
         const createMoviesHTML = (movie) => `
             <div class="movies-list ${movie['genre-class']}">
                 <div>
@@ -28,15 +28,16 @@ async function loadMovies() {
         // Define o título da seção
         movies_list_title.innerHTML = `<h2>${dados["section-title"][which_language]}</h2>`;
 
-        let completeHTML = "";
-
-        // Otimização: Gera todo o HTML na string
-        dados.movies.forEach(movie => {
-            completeHTML += createMoviesHTML(movie);
-        });
+        // Otimização usando map e join para gerar o HTML completo
+        const completeHTML = dados.movies.map(createMoviesHTML).join('');
 
         // Injeta o HTML completo na área de destino
         movies_list_area.innerHTML = completeHTML;
+
+        // Caso nenhum filme seja renderizado
+        if (dados.movies.length === 0) {
+            movies_list_area.innerHTML = "<p>Nenhum filme disponível.</p>";
+        }
 
     } catch (error) {
         console.error("Erro ao carregar o arquivo local:", error);

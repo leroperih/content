@@ -52,7 +52,7 @@ async function loadExercises() {
 
     } catch (error) {
         // Corrigido para url_module (com 'e') e usando crases corretamente
-        content_list_section.innerHTML = `<p>Erro ao carregar a visualização dos exercícios do módulo ${url_module}</p>`;
+        content_list_section.innerHTML = `<p>Erro ao carregar a visualização dos exercícios</p>`;
         console.error(error); // Boa prática para ver o erro real no console do navegador
     }
 

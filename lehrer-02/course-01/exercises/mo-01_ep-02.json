@@ -57,8 +57,6 @@
       }
     },
 
-    // ################################################
-
     {
       "task_title": {
         "de": "Task 02 - Etwas sieht falsch aus...",
@@ -121,8 +119,6 @@
         "en": "A very awesome interface..."
       }
     },
-
-    // ###############################################
 
     {
       "task_title": {
@@ -194,8 +190,6 @@
         "en": "Very interesting this task-03, I learned what the 'dirb' command is"
       }
     },
-
-    // ###############################################
 
     {
       "task_title": {

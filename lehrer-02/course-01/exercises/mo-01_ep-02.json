@@ -1,0 +1,270 @@
+{
+  "episode": {
+    "de": "MO-01 EP-02 _ Einführung in die defensive Sicherheit",
+    "pt": "MO-01 EP-02 _ Introdução à Segurança Defensiva",
+    "en": "MO-01 EP-02 _ Defensive Security Intro"
+  },
+
+  "tasks": [
+    {
+      "task_title": {
+        "de": "Task 01 - Du bist die erste Verteidigungslinie!",
+        "pt": "Task 01 - Você é a Primeira Linha de Defesa!",
+        "en": "Task 01 - You're the First Line of Defence!"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "Was macht ein Verteidiger eigentlich?",
+                "pt": "O que um defensor realmente faz?",
+                "en": "What does a defender actually do?"
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Stell dir vor, genau jetzt, irgendwo, testen Hacker im Stillen die Website eines Unternehmens. Sie suchen heimlich nach Wegen, sich in deren Computer zu hacken.",
+                "pt": "Imagine que, agora mesmo, em algum lugar, hackers estão testando silenciosamente o site de uma empresa. Explorando secretamente maneiras de invadir seus computadores.",
+                "en": "Imagine, right now, somewhere, hackers are quietly testing a company's website. Secretly exploring ways to hack into their computers."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Diese Hacker sind gerissen und voller Tricks. Die Menschen, deren Aufgabe es ist, diese Hacker zu bemerken, das Unternehmen zu schützen und die Hacker zu stoppen, werden Verteidiger genannt.",
+                "pt": "Esses hackers são furtivos e cheios de truques. As pessoas cujo trabalho é notar esses hackers, proteger a empresa e pará-los são chamadas de defensores.",
+                "en": "These hackers are sneaky and full of tricks. The people whose job it is to notice these hackers, protect the company and stop the hackers are called defenders."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "",
+                "pt": "",
+                "en": ""
+              }
+            }
+
+      ],
+
+      "comment": {
+        "de": "Diese Aufgabe 01 ist ziemlich einfach",
+        "pt": "Bem simpleszinha essa task-01",
+        "en": "This task-01 is pretty simple"
+      }
+    },
+
+    // ################################################
+
+    {
+      "task_title": {
+        "de": "Task 02 - Etwas sieht falsch aus...",
+        "pt": "Task 02 - Algo Parece Errado...",
+        "en": "Task 02 - Something Looks Wrong..."
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "Etwas sieht falsch aus...",
+                "pt": "Algo Parece Errado...",
+                "en": "Something Looks Wrong..."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "In dieser Aufgabe 02 musste ich auf einen grünen Button klicken, um auf ein Sicherheits-Dashboard zuzugreifen. Auf diesem Sicherheits-Dashboard habe ich eine Menge Informationen gefunden.",
+                "pt": "Nessa Task-02 eu tive que clicar em um botão verde para acessar um dashboard de segurança. Nesse dashboard de segurança eu encontrei um monte de informações.",
+                "en": "In this Task-02 I had to click on a green button to access a security dashboard. In this security dashboard I found a lot of information."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Nachdem ich auf den grünen Button geklickt hatte, um das Sicherheits-Dashboard auf meinem Bildschirm zu öffnen, musste ich eine Reihe von Anweisungen befolgen, um eine wichtige Sicherheitswarnung zu finden:",
+                "pt": "Após eu clicar no botão verde para abrir o dashboard de segurança na minha tela, eu tive que seguir uma série de instruções para encontrar um alerta de segurança importante:",
+                "en": "After clicking the green button to open the security dashboard on my screen, I had to follow a series of instructions to find an important security alert:"
+              }
+            },
+            {
+              "type": "ol",
+              "text": [
+                {
+                  "de": "1. Schau dir das Sicherheits-Dashboard auf der rechten Seite an.",
+                  "pt": "1. Olhe para o Dashboard de Segurança à direita.",
+                  "en": "1. Look at the Security Dashboard on the right."
+                },
+                {
+                  "de": "2. Überprüfe die aktuellen Warnmeldungen auf dem Dashboard.",
+                  "pt": "2. Revise os alertas recentes no dashboard.",
+                  "en": "2. Review the recent alerts on the dashboard."
+                },
+                {
+                  "de": "3. Finde die Warnmeldung, die am verdächtigsten aussieht – ein Hacker hat gerade eine ausgelöst.",
+                  "pt": "3. Encontre o alerta que parece mais suspeito - um hacker acabou de disparar um.",
+                  "en": "3. Find the alert that looks the most suspicious - a hacker has just triggered one."
+                }
+              ]
+            }
+
+      ],
+
+      "comment": {
+        "de": "Ein ziemlich cooles Interface...",
+        "pt": "Uma interface muito braba...",
+        "en": "A very awesome interface..."
+      }
+    },
+
+    // ###############################################
+
+    {
+      "task_title": {
+        "de": "Task 03 - Wonach suchen Hacker?",
+        "pt": "Task 03 - Pelo que Hackers Buscam?",
+        "en": "Task 03 - What are Hackers Looking For?"
+      },
+
+      "content": [
+
+            {
+              "type": "p",
+              "text": {
+                "de": "In dieser Aufgabe 03 habe ich gelernt, dass man unvoreingenommen sein muss, um genauso zu denken, wie ein Hacker denken würde.",
+                "pt": "Nessa Task-03 eu descobri que é preciso ter mente aberta para pensar da mesma forma que um Hacker pensaria.",
+                "en": "In this Task-03 I discovered that you need to have an open mind to think the same way a Hacker would think."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Hacker können aggressiv, heimlich oder beides sein. Das reicht vom schnellen Ausprobieren vieler Wege, in ein Unternehmen einzudringen, um die Verteidiger zu verwirren, bis hin zu vorsichtigem, leisem Vorgehen und dem Warten auf den richtigen Moment zum Zuschlagen.",
+                "pt": "Hackers podem ser agressivos, furtivos ou ambos. Desde tentar rapidamente várias maneiras de invadir uma organização para confundir os defensores, até serem cuidadosos, silenciosos e esperarem o momento certo para atacar.",
+                "en": "Hackers can be aggressive, sneaky, or both. From quickly trying many ways to break into an organisation to confuse the defenders, to being careful, quiet, and waiting for the right time to strike."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Ich musste das Sicherheits-Dashboard erneut aufrufen, um auf den „Untersuchen“-Button zu klicken, um herauszufinden, was die Hacker vorhatten.",
+                "pt": "Eu tive que acessar o dashboard de segurança outra vez para clicar no botão de \"investigar\" para descobrir o que os Hackers estavam tentando fazer.",
+                "en": "I had to access the security dashboard again to click the \"investigate\" button to find out what the Hackers were trying to do."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Aktionen, die ich in Aufgabe 03 durchführen musste:",
+                "pt": "Ações que eu tive que tomar na Task-03:",
+                "en": "Actions I had to take in Task-03:"
+              }
+            },
+            {
+              "type": "ol",
+              "text": [
+                {
+                  "de": "Klicke auf den „Untersuchen“-Button im Sicherheits-Dashboard.",
+                  "pt": "Clique no botão \"Investigar\" no Dashboard de Segurança.",
+                  "en": "Click the \"Investigate\" button on the Security Dashboard."
+                },
+                {
+                  "de": "Schau dir die Seiten an, die der Hacker zu besuchen versucht hat.",
+                  "pt": "Olhe para as páginas que o Hacker tentou visitar.",
+                  "en": "Look at the pages the Hacker has tried to visit."
+                },
+                {
+                  "de": "Finde die aktuellste Seite, die der Hacker entdeckt hat.",
+                  "pt": "Encontre a página mais recente que o hacker encontrou.",
+                  "en": "Find the most recent page that the hacker has found."
+                }
+              ]
+            }
+
+      ],
+
+      "comment": {
+        "de": "Ziemlich interessant, diese Aufgabe 03, ich habe gelernt, was der Befehl 'dirb' ist",
+        "pt": "Bem interessante essa task-03, eu aprendi o que é o comando 'dirb'",
+        "en": "Very interesting this task-03, I learned what the 'dirb' command is"
+      }
+    },
+
+    // ###############################################
+
+    {
+      "task_title": {
+        "de": "Task 04 - Stoppe den Hack",
+        "pt": "Task 04 - Pare o Hackeamento",
+        "en": "Task 04 - Stop The Hack"
+      },
+
+      "content": [
+
+            {
+              "type": "h2",
+              "text": {
+                "de": "Stoppe den Hack",
+                "pt": "Pare o Hackeamento",
+                "en": "Stop The Hack"
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Jetzt wissen wir, wer der Hacker ist und was er versucht zu tun. Verteidiger können eine Reihe von Techniken und Tools einsetzen, um Maßnahmen zu ergreifen, um den Hacker bei seinem Vorhaben zu stoppen.",
+                "pt": "Agora nós sabemos quem o Hacker é e o que ele está tentando fazer. Defensores podem usar um leque de técnicas e ferramentas para tomar medidas para deter o hacker no que ele está fazendo.",
+                "en": "Now we know who the Hacker is and what they are trying to do. Defenders can use a range of techniques and tools to take action to stop the hacker in their tracks."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Um den Hacker zu stoppen, werden wir seinen Zugriff blockieren, die Geschwindigkeit drosseln, mit der auf wichtige Seiten zugegriffen werden kann, und den Schutz aktivieren, sodass ein weiterer solcher Hack nicht mehr möglich ist.",
+                "pt": "Para parar o Hacker, nós vamos bloquear o acesso dele, desacelerar a velocidade com que páginas importantes podem ser acessadas e ativar a proteção para que outro ataque como esse não seja viável.",
+                "en": "To stop the Hacker, we are going to block their access, slow down how fast important pages can be accessed, and turn on protection so another hack like this won't be viable."
+              }
+            },
+            {
+              "type": "p",
+              "text": {
+                "de": "Aktionen, die ich in Aufgabe 04 durchführen musste:",
+                "pt": "Ações que eu tive que tomar na Task-04:",
+                "en": "Actions I had to take in Task-04:"
+              }
+            },
+            {
+              "type": "ol",
+              "text": [
+                {
+                  "de": "Blockiere die Verbindung und die IP-Adresse des Hackers (32.122.195.63).",
+                  "pt": "Bloquear a conexão e o endereço de IP do hacker (32.122.195.63).",
+                  "en": "Block the hacker's connection and IP address (32.122.195.63)."
+                },
+                {
+                  "de": "Verlangsame die Aktivität.",
+                  "pt": "Desacelerar a atividade.",
+                  "en": "Slow the activity."
+                },
+                {
+                  "de": "Schalte den Schutz ein.",
+                  "pt": "Ativar a proteção.",
+                  "en": "Turn on protection."
+                }
+              ]
+            }
+
+      ],
+      "comment": {
+        "de": "Kurz gesagt, ich bin schon Teil von Anonymous!",
+        "pt": "Resumidamente, já faço parte da Anonymous!",
+        "en": "Long story short, I'm already part of Anonymous!"
+      }
+    }
+  ]
+}

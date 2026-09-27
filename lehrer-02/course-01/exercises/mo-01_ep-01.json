@@ -1,10 +1,8 @@
-
 {
-
   "episode": {
-    "de": "",
-    "pt": "MO-01 EP-01 _ Intrudução á Segurança Ofensiva",
-    "en": "MO-01 EP-01 _ Offensive Security Intro"
+    "de": "MO-01 EP-02 _ Einführung in die Defensivsicherheit",
+    "pt": "MO-01 EP-02 _ Intrudução á Segurança Defensiva",
+    "en": "MO-01 EP-02 _ Introduction to Defensive Security"
   },
 
   "tasks": [
@@ -12,9 +10,9 @@
     {
 
       "task_title": {
-        "de": "Task 01 - ",
-        "pt": "Task 01 - Pense como um Hacker!",
-        "en": "Task 01 - Think like a Hacker!"
+        "de": "Aufgabe 01 - Du bist die erste Verteidigungslinie",
+        "pt": "Task 01 - Você é a Primeira Linha de Defesa",
+        "en": "Task 01 - You Are the First Line of Defence"
       },
 
       "content": [
@@ -22,45 +20,44 @@
             {
               "type": "h2",
               "text": {
-                "de": "",
-                "pt": "Pense como um Hacker!",
-                "en": "Think like a Hacker!"
+                "de": "Was macht ein Verteidiger eigentlich?",
+                "pt": "O que um defensor faz de verdade?",
+                "en": "What does a defender actually do?"
               }
             },
 
             {
               "type": "p",
               "text": {
-                "de": "",
-                "pt": "Offensive Security é sobre pensar como um atacker para achar fraquezas antes que um hacker real ache.",
-                "en": "Offensive Security is about thinking like an attacker to find weaknesses before real hackers do."
+                "de": "Offensive Security bedeutet, wie ein Angreifer zu denken, um Schwachstellen zu finden, bevor ein echter Hacker sie entdeckt.",
+                "pt": "Offensive Security é sobre pensar como um atacante para encontrar vulnerabilidades antes que um hacker real as descubra.",
+                "en": "Offensive Security is about thinking like an attacker to find weaknesses before a real hacker discovers them."
               }
             },
 
             {
               "type": "p",
               "text": {
-                "de": "",
-                "pt": "O termo que descreve o ato de simular as ações de um hacker para achar fraquezas é: Offensive Security!",
-                "en": "The term that describes simulating a hacker's actions to find weaknesses is called: Offensive Security!"
+                "de": "Der Begriff für das Simulieren der Handlungen eines Hackers, um Schwachstellen zu finden, lautet: Offensive Security!",
+                "pt": "O termo que descreve o ato de simular as ações de um hacker para encontrar vulnerabilidades é: Offensive Security!",
+                "en": "The term used to describe simulating a hacker's actions to find weaknesses is called Offensive Security!"
               }
             }
+
       ],
 
       "comment": {
-        "de": "",
-        "pt": "Bem simpleszinha essa task-01",
-        "en": ""
+        "de": "Diese Aufgabe war sehr einfach.",
+        "pt": "Bem simpleszinha essa task-01.",
+        "en": "This task was very simple."
       }
 
     },
 
-
-
     {
 
       "task_title": {
-        "de": "Task 02 - ",
+        "de": "Aufgabe 02 - Das Labor starten",
         "pt": "Task 02 - Iniciando o Laboratório",
         "en": "Task 02 - Starting the Lab"
       },
@@ -70,7 +67,7 @@
             {
               "type": "h2",
               "text": {
-                "de": "",
+                "de": "Das Labor starten",
                 "pt": "Iniciando o Laboratório",
                 "en": "Starting the Lab"
               }
@@ -79,27 +76,26 @@
             {
               "type": "p",
               "text": {
-                "de": "",
-                "pt": "Nessa Task-02 eu acessei a simulação de uma página de banco e tive que buscar pelo número de conta do usuário fictício no site.",
-                "en": ""
+                "de": "In dieser Aufgabe habe ich auf eine simulierte Banking-Webseite zugegriffen und musste die Kontonummer eines fiktiven Benutzers finden.",
+                "pt": "Nessa task eu acessei a simulação de uma página de banco e tive que encontrar o número da conta de um usuário fictício.",
+                "en": "In this task, I accessed a simulated banking website and had to find the account number of a fictional user."
               }
             }
+
       ],
 
       "comment": {
-        "de": "",
-        "pt": "Bem simpleszinha essa task-02",
-        "en": ""
+        "de": "Diese Aufgabe war sehr einfach.",
+        "pt": "Bem simpleszinha essa task-02.",
+        "en": "This task was very simple."
       }
 
     },
 
-
-
     {
 
       "task_title": {
-        "de": "Task 03 - ",
+        "de": "Aufgabe 03 - Versteckte Seiten finden",
         "pt": "Task 03 - Encontre Páginas Ocultas",
         "en": "Task 03 - Find Hidden Pages"
       },
@@ -109,7 +105,7 @@
             {
               "type": "h2",
               "text": {
-                "de": "",
+                "de": "Versteckte Seiten finden",
                 "pt": "Encontre Páginas Ocultas",
                 "en": "Find Hidden Pages"
               }
@@ -118,29 +114,28 @@
             {
               "type": "p",
               "text": {
-                "de": "",
-                "pt": "Nessa Task-03 eu tive que encontrar duas páginas ocultas dentro de um site de banco fictício usando o comando dirb.",
-                "en": ""
+                "de": "In dieser Aufgabe musste ich mithilfe des Befehls „dirb“ zwei versteckte Seiten auf einer fiktiven Bank-Webseite finden.",
+                "pt": "Nessa task eu tive que encontrar duas páginas ocultas dentro de um site bancário fictício usando o comando dirb.",
+                "en": "In this task, I had to discover two hidden pages within a fictional banking website using the dirb command."
               }
             }
+
       ],
 
       "comment": {
-        "de": "",
-        "pt": "Bem interessante essa task-03, eu aprendi o que é o commando 'dirb'",
-        "en": ""
+        "de": "Diese Aufgabe war sehr interessant. Ich habe gelernt, was der Befehl „dirb“ ist und wie er verwendet werden kann.",
+        "pt": "Bem interessante essa task, eu aprendi o que é o comando 'dirb'.",
+        "en": "This was a very interesting task. I learned what the 'dirb' command is and how it can be used."
       }
 
     },
 
-
-
     {
 
       "task_title": {
-        "de": "Task 04 - ",
+        "de": "Aufgabe 04 - Die Administrationsseite angreifen",
         "pt": "Task 04 - Ataque a Página de Administração",
-        "en": "Task 04 - Attack the Admin Page"
+        "en": "Task 04 - Attack the Administration Page"
       },
 
       "content": [
@@ -148,30 +143,30 @@
             {
               "type": "h2",
               "text": {
-                "de": "",
+                "de": "Die Administrationsseite angreifen",
                 "pt": "Ataque a Página de Administração",
-                "en": "Attack the Admin Page"
+                "en": "Attack the Administration Page"
               }
             },
 
             {
               "type": "p",
               "text": {
-                "de": "",
-                "pt": "Nessa Task-04 eu tive que hacker a página de administração que eu encontrei ao usar o comando 'dirb' na task anterior. E usando o número de conta do usuário que eu consegui na task 02 eu depositei dinheiro na minha conta bancária.",
-                "en": ""
+                "de": "In dieser Aufgabe musste ich die Administrationsseite kompromittieren, die ich in der vorherigen Aufgabe mithilfe des Befehls „dirb“ entdeckt hatte. Mit der Kontonummer, die ich in Aufgabe 02 erhalten hatte, überwies ich Geld auf mein eigenes Bankkonto.",
+                "pt": "Nessa task eu tive que comprometer a página de administração que encontrei usando o comando 'dirb' na tarefa anterior. Utilizando o número da conta obtido na Task 02, transferi dinheiro para minha própria conta bancária.",
+                "en": "In this task, I had to compromise the administration page that I discovered using the 'dirb' command in the previous task. Using the account number obtained in Task 02, I transferred money into my own bank account."
               }
             }
+
       ],
 
       "comment": {
-        "de": "",
-        "pt": "Resumidamente, já faço parte da Anônimos!",
-        "en": ""
+        "de": "Kurz gesagt: Ich bin jetzt schon Teil von Anonymous!",
+        "pt": "Resumidamente, já faço parte da Anonymous!",
+        "en": "In short, I'm already part of Anonymous!"
       }
 
     }
 
   ]
-  
 }

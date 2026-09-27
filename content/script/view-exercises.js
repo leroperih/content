@@ -39,7 +39,7 @@ async function loadExercises() {
 
             // 1. Cria os elementos estruturais na memória para não quebrar a seleção
             const taskContainer = document.createElement('div');
-            taskContainer.className = "exercise-board-container"; // Container para agrupar o título e o board desta task
+            taskContainer.className = "exercises-board-container"; // Container para agrupar o título e o board desta task
 
             const titleHTML = `<h1>${task.task_title[url_language]}</h1>`;
             const boardHTML = `<div class="exercises-board"></div>`;
@@ -53,7 +53,20 @@ async function loadExercises() {
 
             // 3. Alimenta o quadro de exercícios
             task.content.forEach(html => {
-                exercises_board.innerHTML += `<${html.type}>${html.text[url_language]}</${html.type}>`;
+
+                if (html.type == "ol" || html.type == "ul")
+                {
+                    exercises_board.innerHTML += `<${html.type}></${html.type}>`;
+                    const list = exercises_board.querySelector(html.type);
+                    html.text.forEach(list_members => {
+                        list.innerHTML += `<div>${list_members[url_language]}<div>`;
+                    });
+                }
+                else
+                {
+                    exercises_board.innerHTML += `<${html.type}>${html.text[url_language]}</${html.type}>`;
+                }
+
             });
 
             // 4. Adiciona o container completo ao DOM (usa += para acumular e não apagar as anteriores)

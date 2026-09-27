@@ -730,7 +730,7 @@ div#container-links {
     
 
 
-    div.exercise-board-container
+    div.exercises-board-container
     {
         padding: 1em 2em;
     }
@@ -747,6 +747,16 @@ div#container-links {
         flex-direction: column;
         gap: 1em;
     }
+
+    div.exercises-board ul,
+    div.exercises-board ol
+    {
+        margin-left: 2em;
+    }
+    
+    div.exercises-board ol { list-style-type: decimal; }
+    div.exercises-board ul { list-style-type: circle; }
+
     div.exercises-board *
     {
         color: var( --color-dark-black-01 );

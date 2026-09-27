@@ -754,8 +754,20 @@ div#container-links {
         margin-left: 2em;
     }
     
-    div.exercises-board ol { list-style-type: decimal; }
     div.exercises-board ul { list-style-type: circle; }
+    div.exercises-board ol { list-style-type: decimal; }
+
+    div.exercises-board span.code,
+    div.exercises-board code
+    {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #2e2e2e;
+        color: #37b635;
+        padding: .1em .5em;
+    }
+
+    div.exercises-board code { padding: 1em !important;}
+
 
     div.exercises-board *
     {

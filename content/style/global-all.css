@@ -784,6 +784,20 @@ div#container-links {
     }
 
 
+    div.normal-list ul *
+    {
+        list-style: circle;
+    }
+    
+    div.normal-list ol *
+    {
+        list-style: decimal;
+    }
+
+    div.normal-list li
+    {
+        margin-left: 1.5em;
+    }
 
 
 

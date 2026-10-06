@@ -134,12 +134,9 @@
     
     div.dont-show-this-language-content
     {
-        overflow: hidden !important;
         position: absolute;
         top: 0em;
-        left: 0em;
-        width: 0em !important;
-        height: 0em !important;
+        left: -5000em !important;
     }
 
 

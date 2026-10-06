@@ -59,10 +59,21 @@
     function toggleLanguage(langName, checkbox)
     {
         const targets = document.getElementsByClassName(langName);
-        const displayStyle = checkbox.checked ? 'block' : 'none';
+        const show_books_language = checkbox.checked ? true : false;
 
-        for (let target of targets) {
-            target.style.display = displayStyle;
+        if (show_books_language)
+        {
+            for (let target of targets)
+            {
+                target.classList += 'dont-show-this-language-content';
+            }
+        }
+        else
+        {
+            for (let target of targets)
+            {
+                target.classList.toggle('dont-show-this-language-content');
+            }
         }
     }
 

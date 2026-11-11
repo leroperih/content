@@ -800,6 +800,24 @@ div#container-links {
     }
 
 
+    div.container-study-elements > div > h1 > span
+    {
+        position: relative;
+        width: 1em;
+        margin-right: 0.5em;
+    }
+
+    img.icon-lang
+    {
+        top: 50%;
+        translate: 0% -50%;
+        position: absolute;
+        width: 1em !important;
+        height: 1em !important;
+        display: inline-block !important;
+    }
+
+
 
 
 

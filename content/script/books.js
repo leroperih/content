@@ -34,6 +34,13 @@
                 content_list_section.innerHTML += createProjectHTML(book);
             });
 
+            const allTitles = document.querySelectorAll("div.book-section");
+
+            allTitles.forEach(title => {
+
+                title.insertAdjacentHTML = ;
+            });
+
         } catch (error) {
             console.error("Erro ao carregar o arquivo local:", error);
             content_list_section.innerHTML += "<p>Erro ao carregar projetos.</p>";

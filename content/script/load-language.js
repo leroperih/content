@@ -15,6 +15,10 @@ async function LoadLanguage()
 
         const hl_url_parameter = url_parameters.get("hl");
 
+        if (hl_url_parameter == null)
+        {
+            hl_url_parameter = "en-us";
+        }
 
         if (all_study_div_links)
         {

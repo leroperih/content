@@ -800,15 +800,15 @@ div#container-links {
     }
 
 
-    h1 > span.container-flag,
-    h2 > span.container-flag
+    h1 > span.flag-icon-container,
+    h2 > span.flag-icon-container
     {
         position: relative;
         width: 1em;
         margin-right: 0.5em;
     }
 
-    img.icon-lang
+    img.flag-icon
     {
         top: 50%;
         translate: 0% -50%;

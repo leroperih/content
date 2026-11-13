@@ -22,7 +22,7 @@
 
                 <div>
                     <h2>
-                        <span><img src="content/img/icon-flag-${books.lang}.png" class="icon-lang" alt="Bandeira ${books.lang}"></span>
+                        <span class="flag-icon-container"><img src="content/img/icon-flag-${books.lang}.png" class="flag-icon" alt="Bandeira ${books.lang}"></span>
                         ${books.title}
                     </h2>
 

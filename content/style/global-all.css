@@ -800,7 +800,8 @@ div#container-links {
     }
 
 
-    div.container-study-elements > div > h1 > span
+    h1 > span.container-flag,
+    h2 > span.container-flag
     {
         position: relative;
         width: 1em;

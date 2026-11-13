@@ -21,7 +21,11 @@
                 </div>
 
                 <div>
-                    <h2> ${books.title} </h2>
+                    <h2>
+                        <span><img src="content/img/icon-flag-${books.lang}.png" class="icon-lang" alt="Bandeira ${books.lang}"></span>
+                        ${books.title}
+                    </h2>
+
                     <p> ${books.desc} </p>
                     <a href="${books.link}" target="_blank" rel="noopener noreferrer"> Leia agora no site Gutenberg </a>
                 </div>
@@ -32,13 +36,6 @@
             // Percorre o array de projetos do JSON
             dados.books.forEach( book => {
                 content_list_section.innerHTML += createProjectHTML(book);
-            });
-
-            const allTitles = document.querySelectorAll("div.book-section");
-
-            allTitles.forEach(title => {
-
-                title.insertAdjacentHTML = ;
             });
 
         } catch (error) {
@@ -86,13 +83,13 @@
 
     // Wrap in an anonymous function to pass arguments
     language_br.addEventListener('change', function () {
-        toggleLanguage("portugues", this);
+        toggleLanguage("pt-br", this);
     });
 
     language_de.addEventListener('change', function () {
-        toggleLanguage("deutsch", this);
+        toggleLanguage("de", this);
     });
 
     language_en.addEventListener('change', function () {
-        toggleLanguage("english", this);
+        toggleLanguage("en-us", this);
     });
